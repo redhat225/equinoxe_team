@@ -1,0 +1,163 @@
+/*! main.scss v1.0 | GNU  | RIEHL EMMANUEL */
+
+/**
+ * Typography mgypton Technologies
+ * 
+ */
+//color purposes
+.mg_prim_color{
+	color: $mg_color_1 !important;
+}
+
+.mg_sec_color_1{
+	color: $mg_color_2 !important;
+}
+
+.mg_sec_color_2{
+	color: $mg_color_3 !important;
+}
+.mg_sec_color_3{
+	color: $mg_color_4 !important;
+}
+
+.mg_sec_color_4{
+	color: $mg_color_5 !important;
+}
+
+.mg_sec_color_5{
+	color: $mg_color_6 !important;
+}
+
+.mg_sec_color_6{
+	color:$mg_color_7 !important;
+}
+
+.mg_sec_color_7{
+	color:$mg_color_8 !important;
+}
+
+.mg_sec_color_8{
+	color:$mg_color_9 !important;
+}
+
+.mg_prim_background{
+	background: $mg_color_1 !important;
+}
+
+.mg_sec_background_1{
+	background: $mg_color_2 !important;
+}
+
+.mg_sec_background_2{
+	background: $mg_color_3 !important;
+}
+.mg_sec_background_3{
+	background: $mg_color_4 !important;
+}
+.mg_sec_background_4{
+	background: $mg_color_5 !important;
+}
+
+.mg_sec_background_5{
+	background: $mg_color_6 !important;
+}
+.mg_sec_background_6{
+	background: $mg_color_7 !important;
+}
+
+.mg_sec_background_7{
+	background: $mg_color_8 !important;
+}
+
+.mg_sec_background_8{
+	background: $mg_color_9 !important;
+}
+
+.mg-margin-0{
+	margin:0 !important;
+}
+.mg-padding-0{
+	padding:0 !important;
+}
+
+// Perce
+.mg-width-10-perc{
+	width:10%;
+}
+
+.mg-width-20-perc{
+	width:20%;
+}
+
+.mg-width-30-perc{
+	width:30%;
+}
+
+.mg-width-40-perc{
+	width:40%;
+}
+
+.mg-width-50-perc{
+	width:50%;
+}
+
+.mg-width-60-perc{
+	width:60%;
+}
+
+.mg-width-70-perc{
+	width:70%;
+}
+
+.mg-width-80-perc{
+	width:80%;
+}
+
+.mg-width-90-perc{
+	width:90%;
+}
+
+.mg-width-100-perc{
+	width:100%;
+}
+
+
+//container alignement purposes
+	@for $i from 1 to 1000{
+		@each $element in  $typo_types {
+				.mg-#{$element}-#{$i}{
+					#{$element}:#{$i}px !important;
+				}
+		}
+	}
+	
+	@for $i from 0 to 1000{
+		@each $element in  $typo_types {
+			@each $item in $typo_orientations {
+				.mg-#{$element}-#{$item}-#{$i}{
+					#{$element}-#{$item}:#{$i}px !important;
+				}
+		    } 
+		}
+	}
+
+//proportions purposes
+@for $i from 0 to 1000{
+	@each $element in $typo_proportions {
+		.mg-#{$element}-#{$i}{
+			#{$element}:#{$i}px !important;
+		}
+	}
+}
+
+//proportions purposes
+@for $i from 1 to 300{
+	@each $element in $typo_proportions {
+		.mg-size-#{$i}{
+			font-size:#{$i}px !important;
+		}
+	}
+}
+
+
+

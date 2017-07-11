@@ -1,0 +1,36 @@
+@font-face{
+	font-family: 'mg-regular';
+	src: url('/font/PFAgoraSlabPro-Reg.ttf');
+}
+
+@font-face{
+	font-family:'mg-medium';
+	src:url('/font/PFAgoraSlabPro-Medium.ttf');
+}
+
+@font-face{
+	font-family:'mg-thin';
+	src:url('/font/PFAgoraSlabPro-Thin.ttf');
+}
+
+@font-face{
+	font-family:'mg-thin-alt';
+	src:url('/font/PFBeauSansPro-Thin.ttf');
+}
+
+// Initializations polices
+.mg-regular{
+	font-family:'mg-regular';
+}
+
+.mg-medium{
+	font-family:'mg-medium';
+}
+
+.mg-thin{
+	font-family:'mg-thin';
+}
+
+.mg-thin-alt{
+	font-family:'mg-thin-alt';
+}

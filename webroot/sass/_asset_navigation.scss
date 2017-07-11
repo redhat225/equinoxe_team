@@ -1,0 +1,84 @@
+/*Social Network*/
+div.share-icons-sidebar {
+    z-index: 100;
+    background: transparent;
+    position: fixed;
+    display: block;
+    top: 180px;
+    right: 0px;
+    width: 49px;
+    height: 170px;
+    opacity: 1;
+}
+
+
+a.share-icon {
+	background: transparent;
+    display: inline-block;
+    float: left;
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+    transition: all 0.3s;
+}
+
+a.share-icon:hover{
+    cursor: pointer;
+    width: 59px;
+}
+
+a.share-icon i.share-icons{
+    position: relative;
+    top: 8px;
+}
+
+p.share-icons-content i{
+	margin: 8px 6px; 
+}
+
+p.share-icons-content i:hover{
+	color: #ff0087;
+	transition-duration:0.4s;
+	cursor: pointer;
+}
+
+/*Redirection Top Element*/
+p.redirect-top{
+	opacity: 0.5;
+    position: fixed;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: #87abe1;
+    overflow: hidden;
+    -webkit-filter: 50%;
+    -moz-filter: 50%;
+    bottom: 50px;
+    right: 3px;
+}
+
+p.redirect-top:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+
+.grey-image{
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.grey-image:hover{
+		filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    /*width: 180px !important;*/
+    transition-duration: 0.5s;
+
+}

@@ -1,0 +1,36 @@
+/*! main.scss v1.0 | GNU  | RIEHL EMMANUEL */
+
+/**
+ * scss main file
+ * used for import only!!!
+ */
+
+//custom Polices
+@import "_police.scss";
+
+//Global Variable
+@import "_variables.scss";
+
+//Mixins & Fonctions
+@import "_methods.scss";
+
+//Typography
+@import "_typography.scss";
+
+//Navigation Assets
+@import "_asset_navigation.scss";
+
+//Element
+@import "_elements.scss";
+
+//Navigation
+@import "_navigation.scss";
+
+//Overrides
+@import "_overrides_materialize.scss";
+
+//Animations
+@import "_animations.scss";
+
+//Loaders
+@import "_loaders.scss";

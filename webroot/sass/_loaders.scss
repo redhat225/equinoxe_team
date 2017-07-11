@@ -1,0 +1,11 @@
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 105% 0%; }
+}
+
+#main_background_animate {
+	background:$mg_color_6 url('/img/assets/meet_greet_base/pattern_header_transparent.png');
+	background-position: 0px 0px;
+	background-repeat: repeat-y repeat-x;
+	animation: animatedBackground 40s linear infinite;
+}

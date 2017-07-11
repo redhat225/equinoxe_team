@@ -1,0 +1,137 @@
+// navigation menu active list item
+li.menu{
+
+    line-height: 61px;
+    &.active a{
+     background:white;
+     border-bottom:3px solid $mg_color_1;
+         line-height: 61px;
+    }
+
+    & a{
+    line-height: 61px;
+        
+    }
+
+    & a:hover{
+        background: white;
+        border-bottom:3px solid $mg_color_1;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        -o-transition: all 0.1s;
+        transition: all 0.1s;
+        line-height: 61px;
+    }
+}
+
+
+// First variety of input
+.contrast-input{
+      /* label color */
+   &.input-field label {
+     color: $mg_color_5;
+   }
+
+    &.input-field input,textarea{
+        background: white;
+        color: $mg_color_5;
+
+    }
+
+
+
+
+   /* label focus color */
+   &.input-field input:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   &.input-field input:focus {
+     border-bottom: 1px solid $mg_color_1;
+     box-shadow: 0 1px 0 0 $mg_color_1;
+   }
+   /* valid color input */
+   &.input-field input.ng-valid,textarea.ng-valid {
+     border-bottom: 1px solid $mg_color_1;
+     box-shadow: 0 1px 0 0 $mg_color_1;
+   }
+   /* invalid color */
+   &.input-field input.ng-invalid,textarea.ng-invalid {
+     border-bottom: 1px solid red;
+     box-shadow: 0 1px 0 0 red;
+   }
+
+   // Textarea
+
+   &.input-field input.ng-pristine,textarea.ng-pristine {
+     border-bottom: 1px solid transparent;
+     box-shadow: 0 1px 0 0 transparent;
+   }
+   /* icon prefix focus color */
+   &.input-field .prefix.active {
+     color: #000;
+   }
+}
+
+
+
+//Radio Button  selected
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+    background-color: $mg_color_1 !important;
+    z-index: 0;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border: 2px solid $mg_color_1 !important;
+}
+
+
+//Flash Messages
+div.message {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    padding: 0 1.5rem 0 1.5rem;
+    transition: height 300ms ease-out 0s;
+    background-color: $mg_color_1;
+    color: white;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+    overflow: hidden;
+    height: 50px;
+    line-height: 2.5em;
+    box-radius: 5px;
+}
+
+div.message:before {
+    line-height: 0px;
+    font-size: 20px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -11px;
+    background-color: #FFF;
+    padding: 12px 14px 12px 10px;
+    content: "i";
+    color: #a0d3e8;
+}
+
+div.message.error {
+    background-color: #C3232D;
+    color: #FFF;
+}
+
+div.message.error:before {
+    padding: 11px 16px 14px 7px;
+    color: #C3232D;
+    content: "x";
+}
+div.message.hidden {
+    height: 0;
+}
