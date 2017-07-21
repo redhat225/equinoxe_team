@@ -34,11 +34,38 @@ class HomeController extends AppController
     }
 
     public function beforeFilter(Event $event){
-        parent::beforeFilter($event);
+                parent::beforeFilter($event);
+        if(!$this->request->is('ajax'))
+        {
+            $this->request->params['action'] = 'index';
+        }
     }
 
     public function index(){
             $title = 'Accueil';
+            $this->set(compact('title'));
+            $this->set('_serialize',['title']);  
+    }
+
+    public function contact(){
+            $title = 'Contact';
+            $this->set(compact('title'));
+            $this->set('_serialize',['title']);  
+    }
+    public function event(){
+            $title = 'Events';
+            $this->set(compact('title'));
+            $this->set('_serialize',['title']);  
+    }
+
+        public function indoor(){
+            $title = 'Services Intérieurs';
+            $this->set(compact('title'));
+            $this->set('_serialize',['title']);  
+    }
+
+        public function outdoor(){
+            $title = 'Services Extérieurs';
             $this->set(compact('title'));
             $this->set('_serialize',['title']);  
     }

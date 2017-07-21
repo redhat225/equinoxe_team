@@ -3,7 +3,7 @@
 }
 
 .bold{
-	font-weight:bold;
+	font-weight:bold !important;
 }
 
 .pointer{
@@ -182,4 +182,19 @@ ul#slide-out li.menu{
     transition-duration: 0.3s;
    cursor: pointer;
   
+ }
+
+ //navbar
+ .item_top_navbar{
+ 	&.active{
+ 	   border-bottom:3px solid $mg_color_1;
+ 	}
+ 	&:hover{
+ 	   border-bottom:3px solid $mg_color_2;
+ 	   transition-duration: 0.6s;
+ 	}
+ }
+
+ .active-side{
+ 	border-left:5px solid $mg_color_1;
  }

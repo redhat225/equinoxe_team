@@ -1,4 +1,5 @@
 <?php $this->layout='blank'; ?>
+    <div class="prezento-master hide"></div>
 <div class="row center mg-padding-0 mg-margin-top-30 mg-margin-bottom-0">
 	<?= $this->Html->image('assets/home/wide_banner.jpg',['style'=>'width:100%;height:100%;display:block;']) ?>
 </div>
@@ -6,7 +7,7 @@
 <!-- Picto Area -->
 <div class="row center mg-padding-50 grey lighten-4">
 	<div class="col s4 center">
-	    <?= $this->Html->image('assets/home/asset_1.png',['style'=>'width:200px;'])  ?>
+	    <?= $this->Html->image('assets/home/asset_1.png',['style'=>'width:150px;'])  ?>
 		<h6 class="bold mg-size-22">Assistance Intérieure</h6>
 		<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">
 		  Lorem ipsum dolor sit amet, consectetur
@@ -14,12 +15,12 @@
 		  </p>
 	</div>
 	<div class="col s4 center">
-	    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:225px;'])  ?>
+	    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:185px;'])  ?>
 		<h6 class="bold mg-size-22">Assistance Extérieure</h6>
 		<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens" style="text-align:match-parent;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ab provident sit animi deleniti impedit qui fuga, at ratione perferendis eaque sed odio delectus necessitatibus, minima alias! Quibusdam quae, ipsum!</p>
 	</div>
 	<div class="col s4 center">
-	    <?= $this->Html->image('assets/home/asset_3.png',['style'=>'width:200px;'])  ?>
+	    <?= $this->Html->image('assets/home/asset_3.png',['style'=>'width:150px;'])  ?>
 		<h6 class="bold mg-size-22">Evenementiel</h6>
 		<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ab provident sit animi deleniti impedit qui fuga, at ratione perferendis eaque sed odio delectus necessitatibus, minima alias! Quibusdam quae, ipsum!</p>
 	</div>
@@ -163,7 +164,7 @@
 	<!-- Parallax Form Area -->
 	<div class="parallax-container mg-height-700">
 		<div class="parallax">
-			<?= $this->Html->image('assets/home/wide_banner_bottom.jpg',['style'=>'bottom: -170px !important;']) ?>
+			<?= $this->Html->image('assets/home/wide_banner_bottom.jpg',['style'=>'bottom: 50px !important;']) ?>
 		</div>
 		<div class="row" style="position: absolute;right:0;">
 		    <div class="container">

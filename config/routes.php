@@ -45,6 +45,10 @@ Router::defaultRouteClass(DashedRoute::class);
 
 Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/', ['controller' => 'Home', 'action' => 'index']);
+    $routes->connect('/service_indoor', ['controller' => 'Home', 'action' => 'index']);
+    $routes->connect('/service_outdoor', ['controller' => 'Home', 'action' => 'index']);
+    $routes->connect('/event', ['controller' => 'Home', 'action' => 'index']);
+    $routes->connect('/contact', ['controller' => 'Home', 'action' => 'index']);
     $routes->fallbacks(DashedRoute::class);
 });
 

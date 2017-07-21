@@ -41888,7 +41888,7 @@ p.redirect-top:hover {
   border: none; }
 
 .bold {
-  font-weight: bold; }
+  font-weight: bold !important; }
 
 .pointer {
   cursor: pointer; }
@@ -42022,6 +42022,15 @@ ul#slide-out li.menu:hover:not(.social_area) {
   display: block;
   transition-duration: 0.3s;
   cursor: pointer; }
+
+.item_top_navbar.active {
+  border-bottom: 3px solid #fc00ff; }
+.item_top_navbar:hover {
+  border-bottom: 3px solid #7a80a1;
+  transition-duration: 0.6s; }
+
+.active-side {
+  border-left: 5px solid #fc00ff; }
 
 /*! main.scss v1.0 | GNU  | RIEHL EMMANUEL */
 /**
