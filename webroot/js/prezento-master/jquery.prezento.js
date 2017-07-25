@@ -32,7 +32,7 @@
 		// Create layout
 		parentElem
 			.css({'position': 'relative', 'display': 'inline-block', 'margin' : '0 auto', 'width' : '100%', 'text-align' : 'center' })
-			.append('<div class="'+config.deviceHolder+' col l6 m6 s12"></div>')
+			.append('<div class="'+config.deviceHolder+' col l6 m6 s12 minoritizing-img-scale"></div>')
 			.append('<div class="'+config.deviceScreen+'"></div>');
 
 

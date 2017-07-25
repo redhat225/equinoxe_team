@@ -61,24 +61,6 @@
 		 </div>
 	</div>
 </div>
-		<!-- Newletter Equinoxe -->
-		<div class="row center mg-padding-40 mg-margin-0 grey lighten-2">
-			<div class="container">
-			  <div class="container">
-			     <div class="col s12">
-			     	<div class="col s9 input-field">
-			     	  <input type="email" placeholder="E-Mail" class="white grey-text" style="border-radius: 2px;">
-			     	</div>
-			     	<div class="col s3 mg-margin-top-15">
-			     		<button class="btn btn mg-height-46 mg_prim_background bold">Souscrire</button>
-			     	</div>
-			     	</div>
-			     </div>
-			</div>
-		</div>
-
-
-
 
 	<div class="row center mg-margin-bottom-0" style="height::	;00px;">
 		<iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.4273092557337!2d2.416418215492454!3d48.8691300792885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d76b2bcc1b7%3A0xa865ac19d9209610!2s18+Rue+Charles+Graindorge%2C+93170+Bagnolet!5e0!3m2!1sfr!2sfr!4v1492738750118" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

@@ -76,7 +76,7 @@ return [
      * enable timestamping regardless of debug value.
      */
     'Asset' => [
-        // 'timestamp' => true,
+        'timestamp' => true,
     ],
 
     /**
@@ -189,6 +189,14 @@ return [
             'tls' => null,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
+        'equinoxe' => [
+            'className' => 'Smtp',
+            'host' => 'ssl://ssl0.ovh.net',
+            'port' => 465,
+            'timeout' => 30,
+            'username' => 'info@btob-connexion.com',
+            'password' => 'virtualnetwork'
+        ]
     ],
 
     /**
@@ -229,9 +237,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'my_app',
+            'username' => 'equinoxe__@@team_lebramogo',
+            'password' => '@@EZO895W00--Equxxxne@@2017',
+            'database' => 'equinoxe_team_db',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],

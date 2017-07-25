@@ -1,4 +1,4 @@
-angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.controllers','ui.materialize'])
+angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.controllers','ui.materialize','cleave.js'])
 		.run(['$rootScope', function($rootScope){
 		    // Verifications Here
 		    $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
@@ -9,6 +9,7 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
                     $rootScope.navbar_invisible = true;
             });
             $rootScope.$on('$viewContentLoaded', function(event, toState, toParams, fromState, fromParams) {
+                
                 $rootScope.preloader = false;
             });
 
@@ -30,6 +31,10 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
 			    		},
 			    		"navbar":{
 			    			templateUrl:"/element/navbar",
+			    			controller:'MainCtrl as mainctrl'
+			    		},
+			    		"newsletter":{
+			    			templateUrl:"/element/newsletter",
 			    			controller:'MainCtrl as mainctrl'
 			    		},
 			    		"footer":{

@@ -198,3 +198,48 @@ ul#slide-out li.menu{
  .active-side{
  	border-left:5px solid $mg_color_1;
  }
+
+// Extra element on rezise
+@media only screen and (min-width: 993px) {
+  .large-right-float-only-and-center-above {
+    float: right !important;
+  }
+
+  .left-on-large-and-center-ondown{
+  	text-align: left;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .large-right-float-only-and-center-above {
+    float: none !important;
+  }
+
+  .left-on-large-and-center-ondown{
+  	text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+    .scale-up-on-small-only{
+	     margin-top: 13%;
+	    -webkit-transform: scale(1.4);
+	    transform: scale(1.4);
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cancel-side-padding{
+    	padding-right:28px !important;
+    	padding-left:28px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .minoritizing-img-scale img, .minoritizing-img-scale + div{
+	    -webkit-transform: scale(0.8);
+	    transform: scale(0.8);
+    }
+}

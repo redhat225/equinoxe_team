@@ -45,5 +45,9 @@ class ElementController extends AppController
 
     }
 
+    public function newsletter(){
+        
+    }
+
     
 }

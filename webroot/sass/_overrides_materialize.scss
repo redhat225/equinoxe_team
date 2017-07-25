@@ -135,3 +135,27 @@ div.message.error:before {
 div.message.hidden {
     height: 0;
 }
+
+// Custom login underlined
+   /* label underline focus color */
+.login-input{
+   &.input-field input:focus {
+     border-bottom: 1px solid $mg_color_1 !important;
+     box-shadow: 0 1px 0 0 $mg_color_1 !important;
+   }
+   /* valid color */
+   &.input-field input.ng-valid {
+     border-bottom: 1px solid $mg_color_1 !important;
+     box-shadow: 0 1px 0 0 $mg_color_1 !important;
+   }
+   /* invalid color */
+   &.input-field input.ng-invalid {
+     border-bottom: 1px solid red !important;
+     box-shadow: 0 1px 0 0 red !important;
+   }
+   // Pristine
+    &.input-field input.ng-pristine {
+     border-bottom: 1px solid transparent !important;
+     box-shadow: 0 1px 0 0 transparent !important;
+   }
+}

@@ -20,8 +20,8 @@
 </style>
 <div class="prezento-master-6 hide"></div>
 		 <div class="row center mg-margin-0 mg-padding-0">
-	<div class="col s12 mg-margin-top-40 mg-margin-bottom-0 mg-padding-0" data-aos='fade-left'>
-			<?= $this->Html->image('assets/outdoor/wide_banner_outdoor.jpg',['style'=>'display:block; width:100%;']) ?>
+	<div class="col s12 mg-margin-top-40 mg-margin-bottom-0 mg-padding-0" data-aos='fade-left' style="overflow: hidden;">
+			<?= $this->Html->image('assets/outdoor/wide_banner_outdoor.jpg',['style'=>'display:block; width:100%;','class'=>'scale-up-on-small-only']) ?>
 	</div>
 </div>
 
@@ -40,7 +40,7 @@
 
 <!-- Equinoxe Team Indoor Cards -->
 <div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50">
-	<div class="col s4 mg-padding-28" data-aos="fade-down">
+	<div class="col l4 s12 m12 mg-padding-28" data-aos="fade-down">
 		  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Services de Livraison</span></h5>
 	  <h5 class="left-align mg-margin-bottom-25">Express</h5>
 	 <div class="card hoverable hvr-bob">
@@ -55,7 +55,7 @@
 	  </div>
 	</div>
 
-    <div class="col s4 mg-padding-28" data-aos="fade-down">
+    <div class="col l4 s12 m12 mg-padding-28" data-aos="fade-down">
 	     <h5 class="bold left-align"><span style="border-bottom: 5px solid #7a80a1;">Services d'accompagnement</span></h5>
 	     <h5 class="left-align mg-margin-bottom-25">des personnes</h5>
 		 <div class="card hoverable hvr-bob">
@@ -70,7 +70,7 @@
 		  </div>
 	</div>
 
- <div class="col s4 mg-padding-28" data-aos="fade-down">
+ <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
  				  <h5 class="bold left-align"><span style="border-bottom: 5px solid #f9f461;">Maintenance Et Vigile</span></h5>
 	  <h5 class="left-align mg-margin-bottom-25">Temporaire</h5>
 	 <div class="card hoverable hvr-bob">
@@ -140,19 +140,19 @@
 		</div>
 
 <!-- Advantage -->
-     <div class="row mg-margin-bottom-0">
-     	<div class="col s7" data-aos="fade-left"
-     data-aos-offset="600">
-     		 <?= $this->Html->image('assets/outdoor/wide_banner_outdoor_bottom.png',['style'=>'width:100%;display:block;']) ?>
+     <div class="row mg-margin-bottom-0 mg-padding-top-50 mg-padding-bottom-50">
+     	<div class="col l7 m6 hide-on-small-only" data-aos="fade-left"
+     data-aos-offset="300">
+     		 <?= $this->Html->image('assets/outdoor/wide_banner_outdoor_bottom.png',['style'=>'width:100%;display:block;','class'=>'scale-up-on-small-only']) ?>
      	</div>
-     	<div class="col s5 left-align">
+     	<div class="col l5 m6 s12 center-on-small-only">
 	     		<h4 class="mg_prim_color bold mg-margin-top-50">LES SERVICES EXPRESS <br>A TOUTE EPREUVE</h4>
 			    <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-	     		<h6 class="sweet-hypens mg-padding-right-55" style="line-height:1.4rem;">
+	     		<h6 class="sweet-hypens mg-padding-right-55 cancel-side-padding" style="line-height:1.4rem;">
 	     			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores quisquam possimus officia et saepe accusantium, iure inventore necessitatibus nam porro asperiores amet cupiditate nostrum at, animi ab tenetur quaerat. <br>
 	     			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur earum aliquid, possimus velit quidem, ratione cumque atque nisi maiores autem commodi, sit accusantium enim. Laborum aut quam placeat quisquam! Nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, est, quod cumque quidem ullam, asperiores cum tenetur iure eveniet suscipit at voluptate aut! Id et veniam tempore, quod, expedita corrupti.
 	     		</h6>
-			<ul class="mg-padding-right-55">
+			<ul class="mg-padding-right-55 hide-on-med-only">
 				<li class="mg-margin-top-30">
 				   <div class="row center" data-aos="flip-left">
 				   	  <div class="col s3 left-align mg-padding-0">
@@ -188,25 +188,7 @@
 				   	  		 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus id beatae quod architecto, eveniet autem. Eaque incidunt consectetur deserunt reiciendis.</span>
 				   	  </div>
 				  </div>
-
 				</li>
 			</ul>
      	</div>
      </div>
-            
-				
-<!-- Newletter Equinoxe -->
-		<div class="row center mg-padding-40 mg-margin-0 grey lighten-2">
-			<div class="container">
-			  <div class="container">
-			     <div class="col s12">
-			     	<div class="col s9 input-field">
-			     	  <input type="email" placeholder="E-Mail" class="white grey-text" style="border-radius: 2px;">
-			     	</div>
-			     	<div class="col s3 mg-margin-top-15">
-			     		<button class="btn btn mg-height-46 mg_prim_background bold">Souscrire</button>
-			     	</div>
-			     	</div>
-			     </div>
-			</div>
-		</div>

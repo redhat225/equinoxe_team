@@ -51,6 +51,10 @@ define('CONFIG', ROOT . DS . 'config' . DS);
  */
 define('WWW_ROOT', ROOT . DS . 'webroot' . DS);
 
+// Node Modules
+define('NODE_MODULES', WWW_ROOT . 'node_modules' . DS);
+
+
 /**
  * Path to the tests directory.
  */

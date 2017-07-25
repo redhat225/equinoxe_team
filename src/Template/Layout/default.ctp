@@ -40,7 +40,6 @@ $cakeDescription = 'Equinoxe Team';
     <?= $this->Html->css('../js/prezento-master/jquery.prezento') ?>
     <?= $this->Html->css('../bower_components/aos/dist/aos') ?>
 
-
     <?= $this->fetch('css') ?>
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
@@ -55,9 +54,11 @@ $cakeDescription = 'Equinoxe Team';
     <?= $this->Html->script('slick-1.6.0/slick/slick.min') ?>
     <?= $this->Html->script('prezento-master/jquery.prezento') ?>
     <?= $this->Html->script('jquery.fittext') ?>
-   
+    <?= $this->Html->script('../node_modules/cleave.js/dist/cleave-angular.min') ?>
+    <?= $this->Html->script('../node_modules/cleave.js/dist/addons/cleave-phone.fr') ?>
 
     <?= $this->fetch('script') ?>
+
     <base href="/">
 
 </head>
@@ -66,11 +67,12 @@ $cakeDescription = 'Equinoxe Team';
 
     <div ng-hide="$root.preloader" class="row center mg-margin-bottom-0" ui-view="navbar"></div>
     <div ng-hide="$root.preloader" ui-view></div>
+    <div ng-hide="$root.preloader" class="row center mg-margin-bottom-0" ui-view="newsletter"></div>
     <div ng-hide="$root.preloader" ui-view="footer"></div> 
     
     <!-- loader -->
 
-                <div class="row center mg-margin-top-70" ng-show="$root.preloader" style="width: 100%; position:fixed;">
+    <div class="hide-on-med-and-down row center mg-margin-top-70" ng-show="$root.preloader" style="width: 100%; position:fixed;">
                     <?= $this->Html->image('assets/home/wide_banner_blank.jpg',['style'=>'width:100%;display:block;']) ?>
                         <div class="col s12 white-text" style="position: absolute; width: 100%; top:40%;">
                           <div class="container">
@@ -90,77 +92,24 @@ $cakeDescription = 'Equinoxe Team';
                           </div>
 
                         </div>
-                  </div>
+      </div>
+      <!-- Preloader for smaller screen -->
+      <div ng-show="$root.preloader" class="row center mg-margin-0 hide-on-large-only" style="background:url('/img/assets/event/event_wide_banner_yellow.jpg') 28% -16%;  position:relative;height:2000px;">
+          <div style="position: fixed;width:100%;margin-top: 42%;">
+          <?= $this->Html->image('assets/event/equinoxe_logo_custom.png',['style'=>'width:250px;']) ?>
+            <p><?= $this->Html->image('assets/preloaders/dot_loader.png',['class'=>'mg-width-130']) ?></p>
+          </div>
 
-
-            
-    <!-- Angular App -->
-    <?= $this->Html->script('Red/app') ?>
-    <?= $this->Html->script('Red/controllers') ?>
-    <?= $this->Html->script('Red/services') ?>
-
-    <?= $this->Html->script('sweet-justice.min') ?>
-
-    <script>
-      var TxtRotate = function(el, toRotate, period) {
-          this.toRotate = toRotate;
-          this.el = el;
-          this.loopNum = 0;
-          this.period = parseInt(period, 10) || 2000;
-          this.txt = '';
-          this.tick();
-          this.isDeleting = false;
-        };
-
-        TxtRotate.prototype.tick = function() {
-          var i = this.loopNum % this.toRotate.length;
-          var fullTxt = this.toRotate[i];
-
-          if (this.isDeleting) {
-            this.txt = fullTxt.substring(0, this.txt.length - 1);
-          } else {
-            this.txt = fullTxt.substring(0, this.txt.length + 1);
-          }
-
-          this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-          var that = this;
-          var delta = 300 - Math.random() * 100;
-
-          if (this.isDeleting) { delta /= 2; }
-
-          if (!this.isDeleting && this.txt === fullTxt) {
-            delta = this.period;
-            this.isDeleting = true;
-          } else if (this.isDeleting && this.txt === '') {
-            this.isDeleting = false;
-            this.loopNum++;
-            delta = 500;
-          }
-
-          setTimeout(function() {
-            that.tick();
-          }, delta);
-        };
-
-        window.onload = function() {
-          var elements = document.getElementsByClassName('txt-rotate');
-          for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-rotate');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtRotate(elements[i], JSON.parse(toRotate), period);
-            }
-          }
-          // INJECT CSS
-          var css = document.createElement("style");
-          css.type = "text/css";
-          css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-          document.body.appendChild(css);
-        };
-    </script>
+      </div>
+      <!-- Angular App -->
+      <?= $this->Html->script('Red/app') ?>
+      <?= $this->Html->script('Red/controllers') ?>
+      <?= $this->Html->script('Red/services') ?>
+      <!-- Additional Dependencies -->
+      <?= $this->Html->script('sweet-justice.min') ?>
+      <?= $this->Html->script('awesome_animation') ?>
       <script>
-    AOS.init();
-  </script>
+        AOS.init();
+      </script>
 </body>
 </html>

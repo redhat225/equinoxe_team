@@ -19,6 +19,7 @@ use Cake\Network\Exception\ForbiddenException;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use Cake\Event\Event;
+use Cake\Network\Exception;
 /**
  * Static content controller
  *
@@ -31,6 +32,7 @@ class HomeController extends AppController
 
     public function initialize(){
         parent::initialize();
+        $this->loadComponent('RequestHandler');
     }
 
     public function beforeFilter(Event $event){
@@ -74,5 +76,80 @@ class HomeController extends AppController
     	    $title = 'Accueil';
             $this->set(compact('title'));
             $this->set('_serialize',['title']);
+    }
+
+    public function subscribeNewsletter(){
+        if($this->request->is('ajax')){
+            if($this->request->is('post')){
+                $data = $this->request->data;
+                $this->loadModel('NewsletterSubscribers');
+                $newsletter = $this->NewsletterSubscribers->newEntity($data);
+                if($newsletter->errors())
+                    throw new Exception\ForbiddenException(__('Forbidden'));
+                else
+                {
+                    if($this->NewsletterSubscribers->save($newsletter))
+                    {
+                        //open the pipe
+                        $this->RequestHandler->renderAs($this, 'json');
+                        $response = ['message'=>'ok'];
+                        $this->set(compact('response'));
+                        $this->set('_serialize',['response']);
+                    }
+                    else
+                    {
+                        if($newsletter->errors()['newsletter_label']['_isUnique'])
+                        {
+                            throw new Exception\UnauthorizedException(__('Unauthorized'));
+                        }
+                        else
+                          throw new Exception\BadRequestException(__('BadRequest'));
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    public function serviceHub(){
+        if($this->request->is('ajax')){
+            if($this->request->is('get')){
+                $query_data = $this->request->query;
+
+                switch($query_data['action'])
+                {
+                    case 'get':
+                         $this->loadModel('ServiceCategoryItems');
+                         $this->RequestHandler->renderAs($this, 'json');
+                         $items = $this->ServiceCategoryItems->find();
+                         $this->set(compact('items'));
+                         $this->set('_serialize',['items']);
+                    break;  
+                }
+
+            }
+
+            if($this->request->is('post')){
+                $data = $this->request->data;
+                $this->loadModel('ServiceSubscribers');
+                $subscriber = $this->ServiceSubscribers->newEntity($data);
+                if($subscriber->errors())
+                    throw new Exception\ForbiddenException(__('Forbidden'));
+                else
+                {
+                    if($this->ServiceSubscribers->save($subscriber))
+                    {
+                        //sollicit a job... naturally!
+                        $this->RequestHandler->renderAs($this, 'json');
+                        $response = ['message'=>'ok'];
+                        $this->set(compact('response'));
+                        $this->set('_serialize',['response']);
+                    }
+                    else
+                        throw new Exception\BadRequestException(__('Bad Request'));
+                }
+            }
+        }
     }
 }

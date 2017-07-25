@@ -42032,6 +42032,31 @@ ul#slide-out li.menu:hover:not(.social_area) {
 .active-side {
   border-left: 5px solid #fc00ff; }
 
+@media only screen and (min-width: 993px) {
+  .large-right-float-only-and-center-above {
+    float: right !important; }
+
+  .left-on-large-and-center-ondown {
+    text-align: left; } }
+@media only screen and (max-width: 993px) {
+  .large-right-float-only-and-center-above {
+    float: none !important; }
+
+  .left-on-large-and-center-ondown {
+    text-align: center; } }
+@media only screen and (max-width: 700px) {
+  .scale-up-on-small-only {
+    margin-top: 13%;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4); } }
+@media only screen and (max-width: 600px) {
+  .cancel-side-padding {
+    padding-right: 28px !important;
+    padding-left: 28px !important; } }
+@media only screen and (max-width: 1000px) {
+  .minoritizing-img-scale img, .minoritizing-img-scale + div {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); } }
 /*! main.scss v1.0 | GNU  | RIEHL EMMANUEL */
 /**
  * Navigation - Krypton Technologies
@@ -42157,6 +42182,23 @@ div.message.error:before {
 
 div.message.hidden {
   height: 0; }
+
+/* label underline focus color */
+.login-input {
+  /* valid color */
+  /* invalid color */ }
+  .login-input.input-field input:focus {
+    border-bottom: 1px solid #fc00ff !important;
+    box-shadow: 0 1px 0 0 #fc00ff !important; }
+  .login-input.input-field input.ng-valid {
+    border-bottom: 1px solid #fc00ff !important;
+    box-shadow: 0 1px 0 0 #fc00ff !important; }
+  .login-input.input-field input.ng-invalid {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important; }
+  .login-input.input-field input.ng-pristine {
+    border-bottom: 1px solid transparent !important;
+    box-shadow: 0 1px 0 0 transparent !important; }
 
 /*!
  * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
