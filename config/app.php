@@ -189,15 +189,16 @@ return [
             'tls' => null,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
-        'equinoxe' => [
+        'equinoxeTransport' => [
             'className' => 'Smtp',
             'host' => 'ssl://ssl0.ovh.net',
             'port' => 465,
             'timeout' => 30,
-            'username' => 'info@btob-connexion.com',
-            'password' => 'virtualnetwork'
+            'username' => 'remmanuel@vne-ci.com',
+            'password' => '123456789'
         ]
     ],
+
 
     /**
      * Email delivery profiles
@@ -215,6 +216,13 @@ return [
             //'charset' => 'utf-8',
             //'headerCharset' => 'utf-8',
         ],
+        //equinoxe Team profile
+        'equinoxe_main_profile' => [
+            'from' => ['info@equinoxe-team.fr'=>'Equinoxe Team'],
+            'transport' => 'equinoxeTransport',
+            'charset' => 'utf-8',
+            'headerCharset' => 'utf-8'
+        ]
     ],
 
     /**

@@ -20,6 +20,7 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use Cake\Event\Event;
 use Cake\Network\Exception;
+use Pheanstalk\Pheanstalk;
 /**
  * Static content controller
  *
@@ -130,6 +131,9 @@ class HomeController extends AppController
 
             }
 
+
+
+
             if($this->request->is('post')){
                 $data = $this->request->data;
                 $this->loadModel('ServiceSubscribers');
@@ -140,8 +144,14 @@ class HomeController extends AppController
                 {
                     if($this->ServiceSubscribers->save($subscriber))
                     {
-                        //sollicit a job... naturally!
                         $this->RequestHandler->renderAs($this, 'json');
+                        //sollicit a job... naturally!
+                        $pheanstalk = new Pheanstalk('127.0.0.1');
+                        $payload = ['content'=>$subscriber];
+                        $pheanstalk
+                          ->useTube('notificationServiceTube')
+                          ->put(json_encode($payload));
+                        //send response
                         $response = ['message'=>'ok'];
                         $this->set(compact('response'));
                         $this->set('_serialize',['response']);
