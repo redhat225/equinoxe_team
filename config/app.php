@@ -237,7 +237,7 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'equinoxe__@@team_lebramogo',
+            'username' => 'equinoxe__@@team',
             'password' => '@@EZO895W00--Equxxxne@@2017',
             'database' => 'equinoxe_team_db',
             'encoding' => 'utf8',
