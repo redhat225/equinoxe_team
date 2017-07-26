@@ -24,10 +24,7 @@ class NotificationSubscriptionShell extends Shell
     while($job = $client->reserve()){
       $message =json_decode($job->getData(),true);
 
-        if($message->isEmpty())
-          $this->abort('Error Occured');
-        else
-        {
+
           $status = $this->send($message['content']);
           if($status)
           {
@@ -40,8 +37,7 @@ class NotificationSubscriptionShell extends Shell
             $this->out('Job Burried');
 
           }
-        }
-
+        
     }
   }
 
