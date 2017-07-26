@@ -4,9 +4,15 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
 		    $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
                 $rootScope.preloader = true;
                 if(toState.name==="app.contact")
+                {
+		            $rootScope.back_theme_newsletter = 'mg_sec_background_2';
                     $rootScope.navbar_invisible = false;
+                }
                 else
+                {
+		            $rootScope.back_theme_newsletter = 'grey lighten-2';
                     $rootScope.navbar_invisible = true;
+                }
             });
             $rootScope.$on('$viewContentLoaded', function(event, toState, toParams, fromState, fromParams) {
                 
@@ -45,6 +51,9 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
 			    })
 			    .state('app.home',{
 			    	url:'home',
+			    	params:{
+			    		is_subscribing:0
+			    	},
 			    	cache:false,
 			    	templateUrl:'/home/home',
 			    	controller:'HomeCtrl as homectrl'

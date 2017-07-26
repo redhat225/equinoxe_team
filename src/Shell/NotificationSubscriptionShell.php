@@ -24,23 +24,23 @@ class NotificationSubscriptionShell extends Shell
     while($job = $client->reserve()){
       $message =json_decode($job->getData(),true);
 
-      if($message->isEmpty)
-        $this->abort('Error Occured');
-      else
-      {
-        $status = $this->send($message['content']);
-        if($status)
-        {
-          $client->delete($job);
-          $this->out('Job Delete');
-        }
+        if($message->isEmpty())
+          $this->abort('Error Occured');
         else
         {
-          $client->bury($job);
-          $this->out('Job Burried');
+          $status = $this->send($message['content']);
+          if($status)
+          {
+            $client->delete($job);
+            $this->out('Job Delete');
+          }
+          else
+          {
+            $client->bury($job);
+            $this->out('Job Burried');
 
+          }
         }
-      }
 
     }
   }

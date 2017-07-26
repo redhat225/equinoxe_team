@@ -28,12 +28,12 @@
 <!-- Description Indoor Assistance -->
 		<div class="row center mg-padding-50 mg-margin-0 mg_sec_background_6">
 			<div class="container" style="width: 72%;">
-		    <h5 class="special-text bold">Assistance Intérieure</h5>
+		    <h5 class="special-txt bold">Assistance Intérieure</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-				    <p class="special-text sweet-hypens">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cum sit illo incidunt praesentium quis eum sint saepe, accusantium ipsum repellendus similique animi earum nisi, officiis repellat quisquam corporis dolorem.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				    <p class="special-tex sweet-hypens mg-size-20">
+						Concentrez désormais votre attention sur votre journée chargée en nous laissant le soin de nous occuper avec assurance et passion de vos attentes intérieures. Du jardin jusqu'à la salle bain , nous disposons d'un réseau de personnel qualifié et impregné de notre philosophie orientée en faveur d'un investissement infaillible dans l'accomplissement de l'objectif défini.
 				    </p>	
+				    <a href="#!" ui-sref="app.home({is_subscribing:1})" class="btn transparent white-text bold mg_prim_background">Souscrire à un devis</a>
 			</div>
 		</div>
 
@@ -47,9 +47,9 @@
 	      <img class="activator" src="/img/assets/indoor/sub_banner_2.jpg">
 	    </div>
 	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-	      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+	      <span class="card-title white-text left-align">Soutien Scolaire<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Nous accompagnons vos enfants dans leur réussite scolaire</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
 	</div>
@@ -62,9 +62,9 @@
 		      <img class="activator" src="/img/assets/indoor/sub_banner_1.jpg">
 		    </div>
 		    <div class="card-reveal mg_sec_background_1">
-		      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-		      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-		      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+		      <span class="card-title white-text left-align">Assistance Informatique<i class="ion-close right small"></i></span>
+		      <p class="white-text left-align">L'outil informatique ne sera plus un secret pour vous!</p>
+		      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 		    </div>
 		  </div>
 	</div>
@@ -77,9 +77,9 @@
 	       <img class="activator" src="/img/assets/indoor/sub_banner_3.jpg">
 	    </div>
 	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-	      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+	      <span class="card-title white-text left-align">Entretien de la maison<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Tout sera évidemment passé au peigne fin. Ne vous en inquietez surtout pas!</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
 	</div>
@@ -88,31 +88,31 @@
 
 <div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-0">
 	<div class="col l4 m12 s12 mg-padding-28" data-aos="fade-up">
-	  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Assistance Scolaire</span></h5>
+	  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Préparation de repas</span></h5>
 	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
 	  <div class="card hoverable hvr-overline-from-left hvr-hang">
 	    <div class="card-image waves-effect waves-block waves-light">
 	      <img class="activator" src="/img/assets/indoor/sub_banner_4.jpg">
 	    </div>
 	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-	      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+	      <span class="card-title white-text left-align">Préparation de repas<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Vous êtes invité à consommer sans modération à la signature gustative made by Equinoxe Team.</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
 	</div>
 
    <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-up">
-      <h5 class="bold left-align"><span style="border-bottom: 5px solid #7a80a1;">Garde Enfant</span></h5>
+      <h5 class="bold left-align"><span style="border-bottom: 5px solid #7a80a1;">Garde d'Enfants</span></h5>
 	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
 	  <div class="card hoverable hvr-overline-from-left hvr-hang">
 	    <div class="card-image waves-effect waves-block waves-light">
 	      <img class="activator" src="/img/assets/indoor/sub_banner_5.jpg">
 	    </div>
 	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-	      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+	      <span class="card-title white-text left-align">Garde d'Enfants<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">En déplacement d'affaire ou dans un contexte nécessitant votre absence, vos progénitures seront gardés par des pros.</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
    </div>
@@ -125,9 +125,9 @@
 	       <img class="activator" src="/img/assets/indoor/sub_banner_6.jpg">
 	    </div>
 	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-	      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+	      <span class="card-title white-text left-align">Petits travaux de jardinage<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Nous embelissons votre jardin et révélons toutes les couleurs qu'il dissimule.</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
 	</div>
@@ -141,33 +141,57 @@
          <div class="container">
 				  <ul class="collapsible main" data-collapsible="accordion">
 				    <li>
-				      <div class="collapsible-header title-inside-element active bold left-align mg_sec_color_4">Les Services de livraison</div>
+				      <div class="collapsible-header title-inside-element active bold left-align mg_sec_color_4">Préparation des repas</div>
 				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
 						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
 						    <li>
-						      <div class="collapsible-header inside_element bold left-align active">Est-il possible de me faire livrer des repas à domicile?</div>
-						      <div class="collapsible-body white"><span>Evidemment! En effet les services de livraison sont organisé suivant 3 sous-services:</span></div>
+						      <div class="collapsible-header inside_element bold left-align active">La prise en charge des course est elle prévue?</div>
+						      <div class="collapsible-body white"><span>En effet, le service de préparation des repas à domicile est bel et bien prise en compte</span></div>
 						    </li>
 						    <li>
-						      <div class="collapsible-header inside_element bold left-align">Puis-je être livré en tout moment?</div>
-						      <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptatem neque rerum ipsum harum corporis ducimus nobis ea, laudantium, cumque modi eligendi animi reiciendis deserunt quasi quidem placeat delectus consequuntur.</span></div>
-						    </li>
-						    <li>
-						      <div class="collapsible-header inside_element bold left-align">Le montant moyen de livraison</div>
-						      <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ut atque excepturi saepe omnis vitae quis quaerat, unde, blanditiis maiores commodi. Illum neque tempora quod provident iusto officia! Magni, atque?</span></div>
+						      <div class="collapsible-header inside_element bold left-align">Les courses me seront facturés?</div>
+						      <div class="collapsible-body white"><span>Les achats vous seront facturé mais le temps d'exécution des courses est inclut dans le service.</span></div>
 						    </li>
 						  </ul>
 				      </div>
 				    </li>
 				    <li>
-				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Service d'accompagnement</div>
+				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Soutient scolaire</div>
 				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
-				         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dolor, culpa odit corporis cupiditate perspiciatis enim sunt consequuntur non, maxime, aperiam obcaecati ea id quo repellat dignissimos dolore nam quis?</span>
+						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
+						    <li>
+						      <div class="collapsible-header inside_element bold left-align active">Quel sont les tranches d'âges prise en compte et les classes?</div>
+						      <div class="collapsible-body white"><span>Veuillez <span ui-sref="app.contact" class="pointer mg_sec_color_1 bold">contacter nos services</span> pour avoir plus d'information/<span ui-sref="app.home" class="pointer mg_sec_color_1 bold">souscrivez à un devis</span> pour être recontacté illico!</span></div>
+						    </li>
+						  </ul>
+				      </div>
+				    </li>
+
+				 	<li>
+				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Garde d'Enfants</div>
+				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
+						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
+						    <li>
+						      <div class="collapsible-header inside_element bold left-align active">Quel sont les tranches d'âges prise en compte ?</div>
+						      <div class="collapsible-body white"><span>La garde d'enfants est possible à partir de 3 ans </span></div>
+						    </li>
+						    <li>
+						      <div class="collapsible-header inside_element bold left-align">Les enfants handicapés sont-ils pris en compte?</div>
+						      <div class="collapsible-body white"><span>Pour bientôt, nos équipes y travaillent et prévoient inclure ce service très prochainement avec toujours des innovations.</span></div>
+						    </li>
+						  </ul>
 				      </div>
 				    </li>
 				    <li>
-				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Maintenance Et Vigile</div>
-				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis distinctio odio dolores amet sed exercitationem obcaecati! Accusamus quaerat, quidem veritatis, enim repellendus cupiditate aspernatur, doloribus molestiae rerum, numquam ducimus?</span></div>
+				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Autre</div>
+				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
+						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
+						    <li>
+						      <div class="collapsible-header inside_element bold left-align active">Equinoxe Team proposerait d'autre services non énumérés dans les cartes illustratives?</div>
+						      <div class="collapsible-body white"><span>Nos disposons d'un éventail plus large de prestations comme les soins esthétiques pour personne dépendante. Lorsque vous <span class="bold mg_sec_color_1 pointer" ui-sref="app.home({is_subscribing:1})">renseignez le formulaire de souscription</span> veuillez sélectionner <span class="mg_prim_color bold">l'option autre</span> si vous ne trouvez pas le service intérieur recherché. nous vous recontacteront.</span></div>
+						    </li>
+						  </ul>
+				      </div>
 				    </li>
 				  </ul>
          </div>
@@ -182,8 +206,7 @@
 		    <h6 class="special-text bold">Pourquoi Nous?</h6>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				    <p class="special-text sweet-hypens">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cum sit illo incidunt praesentium quis eum sint saepe, accusantium ipsum repellendus similique animi earum nisi, officiis repellat quisquam corporis dolorem.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Equinoxe Team tisse une culture profonde de la relation humaine avant tout, et fait de cette caractéristique importante un enjeu dans la processus de réalisation des volontés de nos clients.A celà, est associé une réactivité et un service de qualité, pour affronter toutes vos réticences sur les services à la personne.
 				    </p>	
 			</div>
 		</div>
@@ -197,8 +220,8 @@
 	     		<h4 class="mg_prim_color bold mg-margin-top-50">LA SATISFACTION DE VOS ATTENTES INTERIEURES</h4>
 			    <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;','class'=>'scale-up-on-small-only']) ?>
 	     		<h6 class="sweet-hypens mg-padding-right-55 cancel-side-padding" style="line-height:1.4rem;">
-	     			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores quisquam possimus officia et saepe accusantium, iure inventore necessitatibus nam porro asperiores amet cupiditate nostrum at, animi ab tenetur quaerat. <br>
-	     			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur earum aliquid, possimus velit quidem, ratione cumque atque nisi maiores autem commodi, sit accusantium enim. Laborum aut quam placeat quisquam! Nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, est, quod cumque quidem ullam, asperiores cum tenetur iure eveniet suscipit at voluptate aut! Id et veniam tempore, quod, expedita corrupti.
+	     			Parce que l'entretien de votre espace vital est gage de confiance, nous sommes prompte à vous rendre cet honneur en vous proposant nos divers services d'intérieurs pour stimuler et consolider notre partenariat. <br>
+	     			Equinoxe Team a éffectué une répartition des services afin de vous servir le meilleur de l'impossible dans chaque secteur important de votre maison.
 	     		</h6>
 
 			<ul class="mg-padding-right-55 hide-on-med-only">
@@ -209,7 +232,7 @@
 				   	  </div>
 				   	  <div class="col s9 left-align mg-padding-0"> 
 				   	  		<h6 class="bold mg_sec_color_4 mg-size-17">Un Service de Qualité</h6>
-				   	  		   <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus id beatae quod architecto, eveniet autem. Eaque incidunt consectetur deserunt reiciendis.</span>
+				   	  		   <span>Chacun des intervenants à une spécialité bien définie et capitalise une connaissance, ainsi qu'une expérience solide dans la réalisation des tâches attendues.</span>
 				   	  </div>
 				   </div>
 			
@@ -221,7 +244,7 @@
 				   	  </div>
 				   	  <div class="col s9 left-align mg-padding-0"> 
 				   	  		<h6 class="bold mg_sec_color_4 mg-size-17">Atteignez vos objectifs</h6>
-				   	  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus id beatae quod architecto, eveniet autem. Eaque incidunt consectetur deserunt reiciendis.</span>
+				   	  <span>Les courses à faire, la salle de bain à nettoyer et aussi les travaux d'entretien du jardin ont du mal à se glisser dans votre emploi du temps ? laissez-nous relever ces défis.</span>
 				   	  </div>
 				      </div>
 
@@ -234,7 +257,7 @@
 				   	  </div>
 				   	  <div class="col s9 left-align mg-padding-0"> 
 				   	  		<h6 class="bold mg_sec_color_4 mg-size-17">Un Relationnel Solide</h6>
-				   	  		 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus id beatae quod architecto, eveniet autem. Eaque incidunt consectetur deserunt reiciendis.</span>
+				   	  		 <span>Nous vous assistons pleinement et se rapprochons de vous, au point ou vous pourriez refaire appel à la baby sitter de la dernière fois exclusivement.</span>
 				   	  </div>
 				  </div>
 

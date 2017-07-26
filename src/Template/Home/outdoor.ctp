@@ -17,6 +17,13 @@
 
 	}
 
+	.smooth-button:hover{
+		background: white !important;
+		transition-duration: 0.3s;
+		cursor:pointer;
+		color:#fc00ff !important;
+	}
+
 </style>
 <div class="prezento-master-6 hide"></div>
 		 <div class="row center mg-margin-0 mg-padding-0">
@@ -29,30 +36,30 @@
 <!-- Description Outdoor Assistance -->
 		<div class="row center mg-padding-50 mg-margin-0 mg_prim_background">
 			<div class="container" style="width: 72%;">
-		    <h5 class="special-text bold white-text">Assistance Extérieure</h5>
+		    <h5 class="bold white-text">Assistance Extérieure</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-				    <p class="special-text white-text sweet-hypens">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cum sit illo incidunt praesentium quis eum sint saepe, accusantium ipsum repellendus similique animi earum nisi, officiis repellat quisquam corporis dolorem.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				    <p class="mg-size-20 white-text sweet-hypens">
+						Grâce à un large réseau de partenariat ainsi qu'une logistique à toute épreuve, Equinoxe Team vous offre les services qui méritent une grande réactivité et se positionne pour récupérer vos colis, réaliser l'accompagnement des personnes qui vous sont chères ou encore assurer la surveillance de votre domicile lors de vos déplacements en vacances.
 				    </p>	
+				    <a href="#!" ui-sref="app.home({is_subscribing:1})" class="btn transparent white-text bold smooth-button" style="border:2px solid white">Souscrire à un devis</a>
 			</div>
 		</div>
 
 <!-- Equinoxe Team Indoor Cards -->
 <div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50">
 	<div class="col l4 s12 m12 mg-padding-28" data-aos="fade-down">
-		  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Services de Livraison</span></h5>
-	  <h5 class="left-align mg-margin-bottom-25">Express</h5>
-	 <div class="card hoverable hvr-bob">
-	    <div class="card-image waves-effect waves-block waves-light">
-	      <img class="activator" src="/img/assets/outdoor/outdoor_service_1.jpg">
-	    </div>
-	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-	      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
-	    </div>
-	  </div>
+		 <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Services de Livraison</span></h5>
+		 <h5 class="left-align mg-margin-bottom-25">Express</h5>
+		 <div class="card hoverable hvr-bob">
+		    <div class="card-image waves-effect waves-block waves-light">
+		        <img class="activator" src="/img/assets/outdoor/outdoor_service_1.jpg">
+		    </div>
+		    <div class="card-reveal mg_sec_background_1">
+			      <span class="card-title white-text left-align">Services de livraison<i class="ion-close right small"></i></span>
+			      <p class="white-text left-align">Que ce soit pour la livraison de votre linge , de repas ou encore d'un autre type de colis, Equinoxe Team est à votre écoute avec son esprit express!</p>
+			      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
+		    </div>
+		  </div>
 	</div>
 
     <div class="col l4 s12 m12 mg-padding-28" data-aos="fade-down">
@@ -63,9 +70,9 @@
 		      <img class="activator" src="/img/assets/outdoor/outdoor_service_2.jpg">
 		    </div>
 		    <div class="card-reveal mg_sec_background_1">
-		      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-		      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-		      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+		      <span class="card-title white-text left-align">Accompagnement des personnes<i class="ion-close right small"></i></span>
+		      <p class="white-text left-align">Dédié aux personnes ayant besoin d'une aide temporaire dans le cadre des promenades, aide à la mobilité réduite et transport, actes de la vie courante.</p>
+		      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 		    </div>
 		  </div>
 	</div>
@@ -78,9 +85,9 @@
 	       <img class="activator" src="/img/assets/outdoor/outdoor_service_3.jpg">
 	    </div>
 	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Card Title<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Here is some more information about this product that is only revealed once clicked on.</p>
-	      <a class="btn mg_prim_background left bold" href="#!">Souscrire</a>
+	      <span class="card-title white-text left-align">Maintenance et Vigile<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Les services de vigile et maintenance assurent la sécurité de votre appartement, domicile lorsque vous êtes temporairement absent.</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
 	</div>
@@ -92,34 +99,61 @@
       <div class="col s12">
          <div class="container">
 				  <ul class="collapsible main" data-collapsible="accordion">
-				    <li>
-				      <div class="collapsible-header title-inside-element active bold left-align mg_sec_color_4">Les Services de livraison</div>
+				  	<li>
+				      <div class="collapsible-header title-inside-element active bold left-align mg_sec_color_4">Services de livraison</div>
 				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
 						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
 						    <li>
-						      <div class="collapsible-header inside_element bold left-align active">Est-il possible de me faire livrer des repas à domicile?</div>
-						      <div class="collapsible-body"><span>Evidemment! En effet les services de livraison sont organisé suivant 3 sous-services:</span></div>
-						    </li>
-						    <li>
-						      <div class="collapsible-header inside_element bold left-align">Puis-je être livré en tout moment?</div>
-						      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptatem neque rerum ipsum harum corporis ducimus nobis ea, laudantium, cumque modi eligendi animi reiciendis deserunt quasi quidem placeat delectus consequuntur.</span></div>
-						    </li>
-						    <li>
-						      <div class="collapsible-header inside_element bold left-align">Le montant moyen de livraison</div>
-						      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ut atque excepturi saepe omnis vitae quis quaerat, unde, blanditiis maiores commodi. Illum neque tempora quod provident iusto officia! Magni, atque?</span></div>
+						      <div class="collapsible-header inside_element bold left-align active">Quels sont les services compris dans "les services de livraison"?</div>
+						      <div class="collapsible-body">
+						          <ul>
+						         	<li><i class="ion-android-radio-button-on black-text"></i> Livraison de courses à domicile</li>
+						         	<li><i class="ion-android-radio-button-on black-text"></i> Collecte et livraison de à domicile de ligne repassé </li>
+						         	<li><i class="ion-android-radio-button-on black-text"></i> Livraison de repas à domicile </li>
+						         </ul>
+						      </div>
 						    </li>
 						  </ul>
 				      </div>
 				    </li>
 				    <li>
-				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Service d'accompagnement</div>
+				      <div class="collapsible-header title-inside-element active bold left-align mg_sec_color_4">Maintenance et Vigile</div>
 				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
-				         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dolor, culpa odit corporis cupiditate perspiciatis enim sunt consequuntur non, maxime, aperiam obcaecati ea id quo repellat dignissimos dolore nam quis?</span>
+						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
+						    <li>
+						      <div class="collapsible-header inside_element bold left-align active">Puis-je faire surveiller ma résidence secondaire ?</div>
+						      <div class="collapsible-body"><span>Evidemment! Mais à prendre en compte que le service n'est que temporaire. Veuillez <span class="mg_sec_color_1 bold pointer" ui-sref="app.contact">contacter nos services</span> pour plus d'informations</span></div>
+						    </li>
+						  </ul>
 				      </div>
 				    </li>
 				    <li>
-				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Maintenance Et Vigile</div>
-				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis distinctio odio dolores amet sed exercitationem obcaecati! Accusamus quaerat, quidem veritatis, enim repellendus cupiditate aspernatur, doloribus molestiae rerum, numquam ducimus?</span></div>
+				      <div class="collapsible-header title-inside-element active bold left-align mg_sec_color_4">Service d'Accompagnement</div>
+				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
+						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
+						    <li>
+						       <div class="collapsible-header inside_element bold left-align active">Quels sont les sous-services rattachés?</div>
+						       <div class="collapsible-body">
+							         <ul>
+							         	<li><i class="ion-android-radio-button-on black-text"></i> Prestation de conduite du véhicule personnel des personnes qui ont besoin d'une aide temporaire ( hors PA/PH et pathologies chroniques )</li>
+							         	<li><i class="ion-android-radio-button-on black-text"></i> Accompagnement des personnes qui ont besoin d'une aide temporaire ( hors PA/ PH et pathologies chroniques ) pour promenade, aide à la mobilité réduite et transport, actes de la vie courante</li>
+							         	<li><i class="ion-android-radio-button-on black-text"></i> Assistance des personnes qui ont besoin d'une aide temporaire ( hors PA /PH et pathologies chroniques )( hors actes de soins relevant d'actes medicaux)</li>
+							         </ul>
+								</div>
+						    </li>
+						  </ul>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Autre</div>
+				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
+						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
+						    <li>
+						      <div class="collapsible-header inside_element bold left-align active">Equinoxe Team proposerait-elle d'autres services non énumérés dans les cartes illustratives?</div>
+						      <div class="collapsible-body white"><span> Les services d'assistance extérieurs sont regroupés en catégorie de services incluant des sous-services. Lorsque vous <span class="bold mg_sec_color_1 pointer" ui-sref="app.home({is_subscribing:1})">renseignez le formulaire de souscription,</span> veuillez sélectionner <span class="mg_prim_color bold">l'option autre</span> si vous ne trouvez pas le service extérieur recherché. nous vous recontacteront.</span></div>
+						    </li>
+						  </ul>
+				      </div>
 				    </li>
 				  </ul>
          </div>
@@ -134,7 +168,7 @@
 					<h6 class="mg-size-24 bold">Des Incertitudes Subsistent?</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				    <p id="special-text-" class="sweet-hypens mg-size-23">
-						Intérrogez nos services au  <span class="mg_prim_color">0033 58 96 96 369</span> 	
+						Intérrogez nos services <br><span class="mg_prim_color">01 46 94 68 53 / 06 20 07 85 97</span> 	
 				    </p>	
 			</div>
 		</div>
@@ -149,43 +183,42 @@
 	     		<h4 class="mg_prim_color bold mg-margin-top-50">LES SERVICES EXPRESS <br>A TOUTE EPREUVE</h4>
 			    <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 	     		<h6 class="sweet-hypens mg-padding-right-55 cancel-side-padding" style="line-height:1.4rem;">
-	     			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores quisquam possimus officia et saepe accusantium, iure inventore necessitatibus nam porro asperiores amet cupiditate nostrum at, animi ab tenetur quaerat. <br>
-	     			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur earum aliquid, possimus velit quidem, ratione cumque atque nisi maiores autem commodi, sit accusantium enim. Laborum aut quam placeat quisquam! Nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, est, quod cumque quidem ullam, asperiores cum tenetur iure eveniet suscipit at voluptate aut! Id et veniam tempore, quod, expedita corrupti.
+	     			Les services d'assistance extérieurs nous sont familiers puisque nous capitalisons une grande expérience dans ce secteur en terme de qualité de service et de contrat de bonne exécution, afin que vous soyez conforté dans votre orientation vers Equinoxe Team. <br>
+	     			Soucieux d'entretenir un partenariat solide marqué par une confiance et une satisfaction effective, nous portons nos principes en la matière aux travers de 3 grands différents points forts: <span class="bold">un service éclair, une approche humaniste, un service après vente à votre écoute.</span>
 	     		</h6>
 			<ul class="mg-padding-right-55 hide-on-med-only">
 				<li class="mg-margin-top-30">
 				   <div class="row center" data-aos="flip-left">
 				   	  <div class="col s3 left-align mg-padding-0">
-				   	  	 <?= $this->Html->image('assets/indoor/assets_1_item.png',['class'=>'mg-width-67']) ?>
+				   	  	 <?= $this->Html->image('assets/outdoor/thunder.png',['class'=>'mg-width-100']) ?>
 				   	  </div>
 				   	  <div class="col s9 left-align mg-padding-0"> 
 				   	  		<h6 class="bold mg_sec_color_4 mg-size-17">Un Service Eclair</h6>
-				   	  		   <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus id beatae quod architecto, eveniet autem. Eaque incidunt consectetur deserunt reiciendis.</span>
+				   	  		   <span>Définissez nous exactement les délais et ce qu'il y a à faire.Equinoxe Team prends le relais et vous surprendra forcément.</span>
 				   	  </div>
 				   </div>
 			
 			    </li>
 				<li class="mg-margin-top-30" data-aos="flip-right">
 				      <div class="row center">
-				      <div class="col s3 left-align mg-padding-0">
-				   	  	 <?= $this->Html->image('assets/indoor/assets_2_item.png',['class'=>'mg-width-67']) ?>
-				   	  </div>
-				   	  <div class="col s9 left-align mg-padding-0"> 
-				   	  		<h6 class="bold mg_sec_color_4 mg-size-17">Une approche humaniste</h6>
-				   	  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus id beatae quod architecto, eveniet autem. Eaque incidunt consectetur deserunt reiciendis.</span>
-				   	  </div>
+					      <div class="col s3 left-align mg-padding-0">
+					   	  	 <?= $this->Html->image('assets/outdoor/handshake.png',['class'=>'mg-width-110']) ?>
+					   	  </div>
+					   	  <div class="col s9 left-align mg-padding-0"> 
+					   	  		<h6 class="bold mg_sec_color_4 mg-size-17">Une approche humaniste</h6>
+					   	  		<span>Notre politique est axée avant tout sur les bons rapports sociaux avec nos interlocuteurs. La qualité de nos services est fonction de la dimension humaine exprimée par notre équipe. Souriez! </span>
+					   	  </div>
 				      </div>
-
 				</li>
 
 				<li class="mg-margin-top-30" data-aos="flip-left">
 				  <div class="row center">
 				   	  <div class="col s3 left-align mg-padding-0">
-				   	  	 <?= $this->Html->image('assets/indoor/assets_3_item.png',['class'=>'mg-width-67']) ?>
+				   	  	 <?= $this->Html->image('assets/outdoor/sav.png',['class'=>'mg-width-80']) ?>
 				   	  </div>
 				   	  <div class="col s9 left-align mg-padding-0"> 
-				   	  		<h6 class="bold mg_sec_color_4 mg-size-17">Lorm ipsum</h6>
-				   	  		 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus id beatae quod architecto, eveniet autem. Eaque incidunt consectetur deserunt reiciendis.</span>
+				   	  		<h6 class="bold mg_sec_color_4 mg-size-17">SAV Réactif</h6>
+				   	  		 <span>Notre Equipe d'assistance en ligne vous réponds de façon précise sur vos préoccupations et se charge de gérer toute réclamations, attentes , situations de nature à entraver votre confiance, bien sûre avec un réactivité étonnante.</span>
 				   	  </div>
 				  </div>
 				</li>

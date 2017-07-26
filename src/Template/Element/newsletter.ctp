@@ -1,5 +1,5 @@
 		<!-- Newletter Equinoxe -->
-		<div ng-hide="$root.preloader" class="row center mg-padding-40 mg-margin-0 grey lighten-2 relative-block">
+		<div ng-hide="$root.preloader" class="row center mg-padding-40 mg-margin-0 {{$root.back_theme_newsletter}} relative-block">
 		   <!-- Floating Box Appears during processing newsletter subscribing-->
 			<div ng-show="mainctrl.submitting" class="row center absolute-block black" style="width: 100%;height: 100%;left: 0;z-index: 500;top: 0;opacity: 0.85;">
 				<p class="white-text mg-margin-top-50">Traitement en cours</p>
@@ -23,6 +23,3 @@
 			     </div>
 			</div>
 		</div>
-
-		<!-- Modal Box -->
-		

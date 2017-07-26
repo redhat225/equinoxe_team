@@ -10,31 +10,36 @@
 		    <?= $this->Html->image('assets/home/asset_1.png',['style'=>'width:150px;'])  ?>
 			<h6 class="bold mg-size-22">Assistance Intérieure</h6>
 			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">
-			  Lorem ipsum dolor sit amet, consectetur
-			  Maxime ab provident sit animi deleniti impedit qui fuga, at ratione perferendis eaque sed odio delectus necessitatibus, minima alias! Quibusdam quae, ipsum!
+			  Nous vous proposons un large éventail de prestations couvrant les services d'hygyène, de jardinage ainsi que de soutien scolaire et informatique. Confirmez-nous votre disponibilité et les rouages d'équinoxe tourneront pour vous!
 			</p>
+			 <button ui-sref="app.indoor" class="btn mg_prim_background white-text bold mg-margin-top-20">Découvrir</button>	
 		</div>
+
+
 		<div class="col s12 m12 l4 center mg-padding-top-30" data-aos="zoom-in">
 		    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:167px;','class'=>'hide-on-med-and-down'])  ?>
 		    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:200px;','class'=>'hide-on-large-only'])  ?>
 			<h6 class="bold mg-size-22">Assistance Extérieure</h6>
-			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens" style="text-align:match-parent;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ab provident sit animi deleniti impedit qui fuga, at ratione perferendis eaque sed odio delectus necessitatibus, minima alias! Quibusdam quae, ipsum!</p>
+			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens" style="text-align:match-parent;">Besoin de services express comme les livraisons repas et récupération de courses? Notre agence est réactive et prête à vous alléger votre journée.Les services extérieures comprennent également l'accompagnement des personnes et les vigiles.</p>
+			<button ui-sref="app.outdoor" class="btn mg_prim_background white-text bold mg-margin-top-20">Découvrir</button>
 		</div>
 		<div class="col s12 m12 l4 center mg-margin-top-30" data-aos="zoom-in">
 		    <?= $this->Html->image('assets/home/asset_3.png',['style'=>'width:150px;'])  ?>
-			<h6 class="bold mg-size-22">Evenementiel</h6>
-			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ab provident sit animi deleniti impedit qui fuga, at ratione perferendis eaque sed odio delectus necessitatibus, minima alias! Quibusdam quae, ipsum!</p>
+			<h6 class="bold mg-size-22">Evènementiel</h6>
+			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">Après avoir tant rèvé votre évènement il est temps ... de le vivre! Et oui, nous disposons d'un catalogue riche de lieux et de thème ainsi que d'une équipe spécialisée et expérimentée dans l'organisation, qui à cet effet maintiendront vos invités en extase. </p>
+			<button ui-sref="app.event" class="btn mg_prim_background white-text bold mg-margin-top-20">Découvrir</button>
 		</div>
 	</div>	
 
 	<div class="row center kr-margin-top-70 mg-padding-70">
 		<div class="container">
-			<h6 class="special-text bold">EQUINOXE TEAM</h6>
+			<h5 class="special-tex bold">EQUINOXE TEAM</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-			    <p class="special-text-2" class="sweet-hypens">
-					Equinoxe Event est une agence événementielle spécialisée dans l'organisation d'événements pour les entreprises et d'événements pour les particuliers, nous réalisons vos événements clés en main dans des lieux insolites à Paris. Redécouvrez l'événementiel à Paris grâce à notre expertise et nos lieux événementiels atypiques, salle de séminaire, mariage, anniversaire, événement d’entreprise.
-					Notre agence analyse vos besoins afin de créer un événement optimal dans le respect de votre cahier des charges. Notre équipe met à votre service son expérience afin de faire vivre à votre public un moment unique.
-			    </p>	
+			    <p class="special-text- mg-size-20" class="sweet-hypens">
+					Equinoxe Team est une agence multiservice axée sur l'évènementiel ainsi que les services d'assistance intérieurs et extérieurs.Nous sommes l'élement actif de l'organisation de vos évènements en tout genre et de vos tâches intérieures/extérieures grâce à l'appui d'une équipe réactive, et créative qui se fixe la satisfaction complète de vos attentes! <br>	
+					Notre agence est dans la coutume du respect de l'application de sa politique d'offre de service de qualité, afin de vous garantir une expérience digne d'un service étoilé.
+			    </p>
+			   
 		</div>
 	</div>
 
@@ -47,9 +52,9 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/event.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text">Evenementiel</h5>
-						     <h6 class="black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro amet aliquam dolorum fuga impedit similique! Repellat iusto sunt, harum aperiam. Ipsam quaerat dignissimos nam unde deleniti voluptate eius nihil..</h6>
-						     <button class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Evènementiel</h5>
+						     <h6 class="black-text">Du choix des lieux jusqu'au choix du Dj, nous sommes sur tous les fronts pour que votre stress soit celui en rapport avec l'assurance de pas de danse bien effectués.</h6>
+						     <button ui-sref="app.event" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -58,9 +63,9 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_1.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text">Evenementiel</h5>
-						     <h6 class="black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro amet aliquam dolorum fuga impedit similique! Repellat iusto sunt, harum aperiam. Ipsam quaerat dignissimos nam unde deleniti voluptate eius nihil..</h6>
-						     <button class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Assistance Extérieure</h5>
+						     <h6 class="black-text">Les services express sont un gage de notre réputation. Equinoxe Team est une équipe engagée de bonne volonté et imbibée de réactivité.</h6>
+						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -69,9 +74,9 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_4.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text">Evenementiel</h5>
-						     <h6 class="black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro amet aliquam dolorum fuga impedit similique! Repellat iusto sunt, harum aperiam. Ipsam quaerat dignissimos nam unde deleniti voluptate eius nihil..</h6>
-						     <button class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Assistance Intérieure</h5>
+						     <h6 class="black-text">Pas le temps pour réaliser votre cuisine? celà ne devrait plus representer une question pour vous, la réponse nous vous la fournissons, sur la table! </h6>
+						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -82,9 +87,9 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_3.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text">Evenementiel</h5>
-						     <h6 class="black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro amet aliquam dolorum fuga impedit similique! Repellat iusto sunt, harum aperiam. Ipsam quaerat dignissimos nam unde deleniti voluptate eius nihil..</h6>
-						     <button class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Assistance Intérieure</h5>
+						     <h6 class="black-text">Un truc est cassé ? planifier avec nous le passage du plombier à votre domicile, nous vous garantissons un rapport qualité-prix raisonablement vôtre!</h6>
+						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -94,9 +99,9 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_2.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text">Evenementiel</h5>
-						     <h6 class="black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro amet aliquam dolorum fuga impedit similique! Repellat iusto sunt, harum aperiam. Ipsam quaerat dignissimos nam unde deleniti voluptate eius nihil..</h6>
-						     <button class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Assistance Extérieure</h5>
+						     <h6 class="black-text">L'accompagnement &amp; l'assistance des personnes est aussi prise en compte par Equinoxe Team. Respirez, Mémé sera enchantée.</h6>
+						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -105,9 +110,9 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_7.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text">Evenementiel</h5>
-						     <h6 class="black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro amet aliquam dolorum fuga impedit similique! Repellat iusto sunt, harum aperiam. Ipsam quaerat dignissimos nam unde deleniti voluptate eius nihil..</h6>
-						     <button class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Evènementiel</h5>
+						     <h6 class="black-text">Nous vous proposons plusieurs thèmes, lieux et décorations pour votre prochain event de folie! laissez-nous vous accompagner.</h6>
+						     <button ui-sref="app.event" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -120,41 +125,41 @@
 	<div class="row center mg-padding-50">
 		    <h6 class="mg-size-25 bold">Notre Mission, Votre Bien-être</h6>
 	         <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-	        <h6 class="mg-size-18" style="padding-left:13%;padding-right: 13%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ne	mo error eius soluta est ipsum excepturi voluptatum facere earum voluptatibus.</h6>
+	        <h6 class="mg-size-18" style="padding-left:13%;padding-right: 13%;">Nous oeuvrons profondémment pour vous garantir des services de qualité, nos clients l'attestent!</h6>
 
 		<div class="col l4 m12 s12 mg-margin-top-40">
-				<blockquote class="mg-size-18 grey-text text-darken-1">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quidem laboriosam sint nobis consequatur minima quibusdam voluptas inventore, quod deserunt.
+				<blockquote class="mg-size-18 grey-text text-darken-1 left-align">
+					Equinoxe Team m'a recontacté <span class="bold">en à peine 5 minutes</span> après avoir souscrit à un service via le web. <span class="bold">Le service était impécable comme la réctivité de l'équipe</span>.
 				</blockquote>
 			    <div class="col s12 mg-margin-top-30">
-			    	<div class="col s4"><?= $this->Html->image('assets/home/testimonial.jpg',['style'=>'display:block; width:100%;border-radius:50%;']) ?></div>
+			    	<div class="col s4"><?= $this->Html->image('assets/home/testimonial_1.png',['style'=>'display:block; width:100%;border-radius:50%;']) ?></div>
 			    	<div class="col s8 mg-margin-top-20">
-			    		<h6 class="mg_prim_color mg-size-20">RIEHL Wilfried-Emmanuel</h6>
+			    		<h6 class="mg_prim_color mg-size-20">Emmanuel RIEHL</h6>
 			    		<h6 class="mg-size-18 grey-text text-lighten-1">Seine-Sur-Marne</h6>
 			    	</div>
 			    </div>
 		</div>
 		<div class="col l4 m12 s12 mg-margin-top-40">
-				<blockquote class="mg-size-18 grey-text text-darken-1">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quidem laboriosam sint nobis consequatur minima quibusdam voluptas inventore, quod deserunt.
+				<blockquote class="mg-size-18 grey-text text-darken-1 left-align">
+					<span class="bold">La créativite exceptionnelle</span> de la team equinoxe exprimée de la prise en charge complète de <span class="bold">l'organisation de ma fête d'anniversaire fût d'une grande classe</span>.
 				</blockquote>
 			    <div class="col s12 mg-margin-top-30">
-			    	<div class="col s4"><?= $this->Html->image('assets/home/testimonial.jpg',['style'=>'display:block; width:100%;border-radius:50%;']) ?></div>
+			    	<div class="col s4"><?= $this->Html->image('assets/home/testimonial_2.png',['style'=>'display:block; width:100%;border-radius:50%;']) ?></div>
 			    	<div class="col s8 mg-margin-top-20">
-			    		<h6 class="mg_prim_color mg-size-20">RIEHL Wilfried-Emmanuel</h6>
-			    		<h6 class="mg-size-18 grey-text text-lighten-1">Seine-Sur-Marne</h6>
+			    		<h6 class="mg_prim_color mg-size-20">Janine Reinaldo</h6>
+			    		<h6 class="mg-size-18 grey-text text-lighten-1">Toulouse</h6>
 			    	</div>
 			    </div>
 		</div>
 		<div class="col l4 m12 s12 mg-margin-top-40">
-				<blockquote class="mg-size-18 grey-text text-darken-1">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quidem laboriosam sint nobis consequatur minima quibusdam voluptas inventore, quod deserunt.
+				<blockquote class="mg-size-18 grey-text text-darken-1 left-align">
+					<span class="bold">La rigueur et le sérieux</span> dans la réalisation des prestation d'équinoxe Team est à salué.Grand Mère a été plus qu'accompagnée.Merci!
 				</blockquote>
 			    <div class="col s12 mg-margin-top-30">
 			    	<div class="col s4"><?= $this->Html->image('assets/home/testimonial.jpg',['style'=>'display:block; width:100%;border-radius:50%;']) ?></div>
 			    	<div class="col s8 mg-margin-top-20">
-			    		<h6 class="mg_prim_color mg-size-20">RIEHL Wilfried-Emmanuel</h6>
-			    		<h6 class="mg-size-18 grey-text text-lighten-1">Seine-Sur-Marne</h6>
+			    		<h6 class="mg_prim_color mg-size-20">Cyril VERDIET</h6>
+			    		<h6 class="mg-size-18 grey-text text-lighten-1">Lyon</h6>
 			    	</div>
 			    </div>
 		</div>
@@ -173,7 +178,7 @@
 				<p><?= $this->Html->image('assets/preloaders/dot_loader.png',['class'=>'mg-width-100']) ?></p>
 			</div>
 
-		<div class="row" style="position: absolute;width: 100%;">
+		<div class="row" style="position: absolute;width: 100%;" id="subscription_form">
 		    <div class="container large-right-float-only-and-center-above">
 		       <div class="container left-align">
 		                             <div class="row">
@@ -202,7 +207,7 @@
 
 												    <button type="submit" ng-disabled="subscribe_service_form.$invalid" class="btn mg_prim_background white-text bold" style="width: 100%;">Souscrire</button> 
 											      <h6 class="mg-size-15 center-on-med-and-above white-text mg-margin-top-30 sweet-hypens">
-											          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate accusantium quae odio voluptatibus consectetur et velit? Natus laudantium eaque consectetur possimus laborum dicta mollitia voluptatibus, dolores maiores ut molestiae.
+											        J'accepte les conditions d'utilisation d'un formulaire de souscription de service en ligne(web), et m'engage à utiliser de façon responsable les services web de equinoxe team en renseignant des informations correctes.
 											      </h6>
                                          </form>
 
@@ -220,7 +225,7 @@
 				<h6 class="mg-size-24 bold">Des Questions ?</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				    <p id="special-text-" class="sweet-hypens mg-size-23">
-						Intérrogez nos services au  <span class="mg_prim_color">0033 58 96 96 369</span> 	
+						Intérrogez nos services <br><span class="mg_prim_color">01 46 94 68 53 / 06 20 07 85 97</span> 	
 				    </p>	
 			</div>
 		</div>

@@ -42,7 +42,7 @@ $cakeDescription = 'Equinoxe Team';
 
     <?= $this->fetch('css') ?>
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 
     <?= $this->Html->script('../bower_components/angular/angular.min') ?>
     <?= $this->Html->script('../bower_components/materialize/dist/js/materialize.min') ?>

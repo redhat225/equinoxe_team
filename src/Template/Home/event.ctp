@@ -63,7 +63,7 @@
 				</li>
 
 				<li class="center bold mg-margin-top-30">
-					<a class="btn mg_prim_background white-text bold">Découvrir</a>
+					<a class="btn mg_prim_background white-text bold" href="https://equinoxe-event.com/home/services" target="_blank">Découvrir</a>
 				</li>
 			</ul>
 		</p>
@@ -84,22 +84,25 @@
        <?= $this->Html->image('assets/event/procedure_bubble_1.png',['style'=>'width:50px;']) ?>
 	  	<h5 class="center bold">Accédez à l'onglet service</h5>
 	  	<p>
-	  		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptatum ad explicabo blanditiis repellat
+	  		Naviguez dans la barre de menu et sélectionnez l'onglet services pour être redirigé vers la page offrant le formulaire de souscription des évènements.
 	  	</p>
 	</div>
 	<div class="col s12 l4 m12 mg-margin-top-30" data-aos="fade-down">
        <?= $this->Html->image('assets/event/procedure_bubble_2.png',['style'=>'width:50px;']) ?>
-	  	<h5 class="center bold">Accédez à l'onglet service</h5>
-	  		  	<p>
-	  		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptatum ad explicabo blanditiis repellat
+	  	<h5 class="center bold">Souscription</h5>
+	  	<p>
+	  		Renseignez correctement le formulaire et soumettez le, notre équipe vous recontactera dans les minutes qui suivent pour confirmer la sousciption et planifier votre event.
 	  	</p>
 	</div>
 	<div class="col s12 l4 m12 mg-margin-top-30" data-aos="fade-down">
        <?= $this->Html->image('assets/event/procedure_bubble_3.png',['style'=>'width:50px;']) ?>
-	  	<h5 class="center bold">Accédez à l'onglet service</h5>
-	  		  	<p>
-	  		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus voluptatum ad explicabo blanditiis repellat
-	  	</p>
+	  	<h5 class="center bold">Profitez</h5>
+		  	<p>
+		  		Une fois la planification effectuée, Equinoxe se charge du reste afin de vous faire profiter de votre évènement en respectant minutieusement votre cahier des charges.
+		  	</p>
+	</div>
+	<div class="col s12 center">
+			<a class="btn mg_prim_background white-text bold mg-margin-top-60" href="https://equinoxe-event.com/home/services" target="_blank">Commander mon évènement</a>
 	</div>
 </div>
 

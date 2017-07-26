@@ -40,8 +40,14 @@ angular.module('equinoxe.controllers',[])
 		};
 
 	}])
-    .controller('HomeCtrl',['$scope','$templateCache','$rootScope','AssistanceService',function($scope,$templateCache,$rootScope,AssistanceService){
+    .controller('HomeCtrl',['$scope','$templateCache','$rootScope','AssistanceService','$location', '$anchorScroll','$stateParams', function($scope,$templateCache,$rootScope,AssistanceService,$location,$anchorScroll,$stateParams){
     	$templateCache.removeAll();
+    	if($stateParams.is_subscribing>0)
+    	{
+    		$location.hash('subscription_form');
+    		$anchorScroll();
+    	}
+    	
 		var self = this;
 		self.contact = "";
 		angular.element('.prezento-master').prezento();
