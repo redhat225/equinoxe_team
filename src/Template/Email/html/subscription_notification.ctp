@@ -1,48 +1,88 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Newsletter Equinoxe Team</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ </head>
 
-<html xmlns:v="urn:schemas-microsoft-com:vml">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset='utf-8'">
-		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0">
-	</head>
-	<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-		<!-- Header  -->
-
-	<table bgcolor="#fff" width="100%" border="0" cellspacing="0" cellpadding="0">
-		<tbody>
+<body style="margin: 0; padding: 0;">
+		<!-- Email content here !!! -->
+		<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="border-collapse: collapse;border: 1.5px solid #cccccc;">
 			<tr>
-				<td>
-					<div>
-						<table align="center" width="100%" cellspacing="0" cellpadding="0">
-							<tbody>
-								<tr>
-									<td align="center">
-										<img src="https://mobile.btob-connexion.com/img/assets/foani_logo.png" width="27%" border="0" alt="logo-foani"/>
-									</td>
-								</tr>
-								<tr>
-							     	 <td  align="center" height="30" bgcolor="#448200" style="line-height:30px; font-size:17px; color:#fff; font-family:Helvetica; padding:15px;">
-										Une nouvelle commande à destination de votre dépôt à été effectuée avec les informations suivantes: <br>
-									</td>
-						        </tr>
-						        <tr>
-						        	<td height="30" align="right" bgcolor="#448200" style="line-height:30px; font-size:17px; color:#fff; font-family:Helvetica; padding:15px; text-align:right;">
-										Yayou
-									</td>
-						        </tr>
-						        <tr>
-						        	<td height="20" align="right" bgcolor="#ffeb3b" style="line-height: 20px; font-size:13px; color: #000; font-family:Helvetica; padding:15px; text-align: right;">
-						        		L'équipe Foani Mobile Store
-						        	</td>
-						        </tr>
-							</tbody>
-						</table>
-					</div>
+				<td align="center" bgcolor="#ffffff">
+					<img src="https://equinoxe.btob-connexion.com/img/assets/newsletter/equinoxe_logo.png" alt="equinoxe_logo" width="250" style="display:block;"/>
 				</td>
 			</tr>
-		</tbody>
-	</table>	
-<!-- /Footer Bloc -->
+			<tr>
+				<td bgcolor="#f0f0f0" style="padding: 40px 30px 40px 30px;">
+				    <!-- Table for main content -->
+					<table cellspacing="0" cellpadding="0" border="0" width="100%">
+						<tr>
+							<td align="center" style="font-size:28px;font-family: calibri,Helvetica, Arial, sans-serif;color:#231F20;">
+								<b>Devis de services</b>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="padding-top:5px;">
+								<img src="https://equinoxe.btob-connexion.com/img/assets/newsletter/buble.png" alt="bubble" width="50"/>
+							</td>
+						</tr>
+						<tr>
+							<td align="left">
+								<table cellspacing="0" cellpadding="0" border="0" width="100%">
+									<tr>
+										<td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px;">Nom complet: <b><?= $content['subscriber_fullname'] ?></b></td>
+									</tr>
+									<tr>
+										<td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px;">E-Mail: <b><?= $content['subscriber_email'] ?></b></td>
+									</tr>
+									<tr>
+										<td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px;">Numéro Téléphone: <b><?= $content['subscriber_tel'] ?></b></td>
+									</tr>
+									<tr>
+										<td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px;">Service Demandé: <b><?= $content['subscriber_requested_service'] ?></b></td>
+									</tr>
+									<tr>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#f9f461" style="padding: 30px 30px 30px 30px;">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td width="75%">
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td style="font-family: Helvetica, Arial, sans-serif;color:#231F20; font-size: 14px;"><b>&reg; Equinoxe Team 2017</b></td>
+									</tr>
+								</table>
+							</td>
+							<td align="right" width="25%">
+								<table border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<a href="https://www.facebook.com/equinoxe2">
+												<img src="https://equinoxe.btob-connexion.com/img/assets/newsletter/facebook.png" alt="Facebook" width="38" style="display:block;" height="38" border="0"/>
+											</a>
+										</td>
+										<td style="line-height: 0; font-size: 0;" width="20">&nbsp;</td>
+										<td>
+											<a href="https://twitter.com/Equinoxe_Event">
+												<img src="https://equinoxe.btob-connexion.com/img/assets/newsletter/twitter.png" alt="Twitter" width="38" style="display:block;" height="38" border="0" />
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>

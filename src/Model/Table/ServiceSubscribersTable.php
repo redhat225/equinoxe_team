@@ -5,7 +5,9 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
-
+use Cake\Utility\Text;
+use Cake\Event\Event;
+use ArrayObject;
 /**
  * ServiceSubscribers Model
  *
@@ -52,6 +54,11 @@ class ServiceSubscribersTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
+    public function beforeMarshal(Event $event, ArrayObject $data, ArrayObject $options){
+        $data['subscriber_fullname'] = strtoupper($data['subscriber_fullname']);
+    }
+
+
     public function validationDefault(Validator $validator)
     {
         $validator

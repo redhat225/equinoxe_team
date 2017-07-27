@@ -200,12 +200,12 @@
 							                	</div>
 
 							                	<div class="col s12 mg-margin-bottom-40 mg-padding-0 input-field">
-							                		<select ng-model="homectrl.service.service_category_item_id" name="service_category" class="mg-height-60 browser-default mg_sec_background_1 white-text bold" ng-options="i.id as i.item_label for i in homectrl.service_items">
+							                		<select ng-model="homectrl.service.service_object" name="service_category" class="mg-height-60 browser-default mg_sec_background_1 white-text bold" ng-options="i.item_label for i in homectrl.service_items">
 							                		</select>
 							                	</div>
 							                			                           
 
-												    <button type="submit" ng-disabled="subscribe_service_form.$invalid" class="btn mg_prim_background white-text bold" style="width: 100%;">Souscrire</button> 
+												<button type="submit" ng-disabled="subscribe_service_form.$invalid" class="btn mg_prim_background white-text bold" style="width: 100%;">Souscrire</button> 
 											      <h6 class="mg-size-15 center-on-med-and-above white-text mg-margin-top-30 sweet-hypens">
 											        J'accepte les conditions d'utilisation d'un formulaire de souscription de service en ligne(web), et m'engage à utiliser de façon responsable les services web de equinoxe team en renseignant des informations correctes.
 											      </h6>

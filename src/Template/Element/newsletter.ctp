@@ -10,10 +10,10 @@
 	         <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 			<div class="container">
 			  <div class="container">
-				    <form ng-submit="mainctrl.newsletter_subscribe(evidence)" name="newsletter_form">
+				    <form id="newsletter_form" ng-submit="mainctrl.newsletter_subscribe(mainctrl.evidence)" name="newsletter_form">
 					     <div class="col s12">
 					     	<div class="col s9 login-input input-field">
-					     	  <input required ng-maxlength="50" ng-model="evidence.newsletter_label" type="email" ng-pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9]{2,6}$/" placeholder="E-Mail" class="white grey-text required" style="border-radius: 2px;">
+					     	  <input required ng-maxlength="50" ng-model="mainctrl.evidence.newsletter_label" type="email" ng-pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9]{2,6}$/" placeholder="E-Mail" class="white grey-text required" style="border-radius: 2px;">
 					     	</div>
 					     	<div class="col s3 mg-margin-top-15">
 					     		<button ng-disabled="newsletter_form.$invalid" type="submit" class="btn btn mg-height-46 mg_prim_background bold">Souscrire</button>

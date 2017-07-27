@@ -92,6 +92,12 @@ class HomeController extends AppController
                     if($this->NewsletterSubscribers->save($newsletter))
                     {
                         //open the pipe
+                        $pheanstalk = new Pheanstalk('127.0.0.1');
+                        $payload = ['content'=>$newsletter];
+                        $pheanstalk
+                          ->useTube('notificationSubscribeNewsletter')
+                          ->put(json_encode($payload));
+                        //response
                         $this->RequestHandler->renderAs($this, 'json');
                         $response = ['message'=>'ok'];
                         $this->set(compact('response'));

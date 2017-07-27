@@ -3,7 +3,9 @@ angular.module('equinoxe.controllers',[])
 		var self = this;
 		self.contact = "";
 		angular.element('.special-content').fitText(2,{minFontSize: '30px', maxFontSize: '60px' });
-
+		self.evidence={
+			newsletter_label:''
+		};
 		self.submitting = false;
 
 		self.newsletter_subscribe = function(evidence){
@@ -12,6 +14,7 @@ angular.module('equinoxe.controllers',[])
 			    var message = "Félicitation! votre addresse a été enregistrée."
 			    var style = "mg_sec_background_1 white-text bold";
 				Materialize.toast(message,4000,style);
+				document.getElementById('newsletter_form').reset();
 			}, function(errResponse){
 				switch(errResponse.status){
 					case 400:
@@ -53,10 +56,12 @@ angular.module('equinoxe.controllers',[])
 		angular.element('.prezento-master').prezento();
 
 		self.service={
-			service_category_item_id:1,
+			service_object:'',
 			subscriber_fullname:'',
 			subscriber_tel:'',
 			subscriber_email:'',
+			service_category_item_id:'',
+			subscriber_requested_service:''
 		};
 
 		self.submitting = false;
@@ -67,6 +72,7 @@ angular.module('equinoxe.controllers',[])
 
 		AssistanceService.all().then(function(response){
 			self.service_items = response.data.items;
+			self.service.service_object = self.service_items[0];
 		},function(errResponse){
 			Materialize.toast('Erreur lors de la récupération des items',2000,'rounded red');
 		});
@@ -76,16 +82,23 @@ angular.module('equinoxe.controllers',[])
 				Materialize.toast('Une opération est en cours, veuillez patienter.');
 			else
 			{
+				//assign custom value before sending!!
+
+				 service.subscriber_requested_service = service.service_object.item_label;
+				 service.service_category_item_id = service.service_object.service_category_id;
+			   
 			   self.submitting = true;
 			   AssistanceService.subscribe(service).then(function(response){
 			    var message = "Félicitation! votre demande a été prise en compte."
 			    var style = "mg_sec_background_1 white-text bold";
-				Materialize.toast(message,4000,style);
+				  Materialize.toast(message,4000,style);
 						self.service={
-						service_category_item_id:1,
-						subscriber_fullname:'',
-						subscriber_tel:'',
-						subscriber_email:'',
+							service_object:self.service_items[0],
+							subscriber_fullname:'',
+							subscriber_tel:'',
+							subscriber_email:'',
+							service_category_item_id:'',
+							subscriber_requested_service:''
 					};
 			   }, function(errResponse){
 					switch(errResponse.status){

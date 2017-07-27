@@ -6,7 +6,7 @@ use Cake\Mailer\MailerAwareTrait;
 use Cake\Mailer\Email;
 use Pheanstalk\Pheanstalk;
 
-class NotificationSubscriptionShell extends Shell
+class NotificationSubscriptionNewsletterShell extends Shell
 {
   use MailerAwareTrait;
 
@@ -19,11 +19,10 @@ class NotificationSubscriptionShell extends Shell
   public function listen()
   {
     $client = new Pheanstalk('127.0.0.1');
-    $client->watch('notificationServiceTube');
+    $client->watch('notificationSubscribeNewsletter');
 
     while($job = $client->reserve()){
       $message =json_decode($job->getData(),true);
-
 
           $status = $this->send($message['content']);
           if($status)
@@ -45,10 +44,9 @@ class NotificationSubscriptionShell extends Shell
      try
          {
             $email = new Email('equinoxe_main_profile');
-            $email->to($content['subscriber_email'])
-            ->bcc('remmanuel@vne-ci.com')
-            ->subject('⏳ Demande de devis: Equinoxe Team 💼')
-            ->template('subscription_notification','blank') 
+            $email->to($content['newsletter_label'])
+            ->subject('🎫 Inscription Newsletter ✉️')
+            ->template('subscription_notification_newsletter','blank') 
             ->emailFormat('html')
             ->viewVars(['content'=>$content])
             ->send();

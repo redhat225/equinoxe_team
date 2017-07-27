@@ -5,7 +5,9 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
-
+use Cake\Utility\Text;
+use Cake\Event\Event;
+use ArrayObject;
 /**
  * NewsletterSubscribers Model
  *
@@ -46,6 +48,10 @@ class NewsletterSubscribersTable extends Table
         ]);
     }
 
+    public function beforeMarshal(Event $event, ArrayObject $data, ArrayObject $options){
+        $data['subscriber_newsletter_voucher'] = Text::uuid();
+    }
+
     /**
      * Default validation rules.
      *
@@ -73,6 +79,16 @@ class NewsletterSubscribersTable extends Table
             ]);
 
         $validator
+           ->requirePresence('subscriber_newsletter_voucher', 'create')
+            ->notEmpty('subscriber_newsletter_voucher')
+            ->add('subscriber_newsletter_voucher',[
+                    'maxLength' => [
+                        'rule' => ['maxlength',100],
+                        'message' => 'Voucher Format Error'
+                    ]
+                ]);
+
+        $validator
             ->dateTime('deleted')
             ->allowEmpty('deleted');
 
@@ -89,6 +105,7 @@ class NewsletterSubscribersTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->isUnique(['newsletter_label']));
+        $rules->add($rules->isUnique(['subscriber_newsletter_voucher']));
         return $rules;
     }
 }
