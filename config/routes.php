@@ -50,7 +50,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/service_outdoor', ['controller' => 'Home', 'action' => 'index']);
     $routes->connect('/event', ['controller' => 'Home', 'action' => 'index']);
     $routes->connect('/contact', ['controller' => 'Home', 'action' => 'index']);
-    $routes->fallbacks(DashedRoute::class);
+    $routes->connect('/newsletter/unsubscribe', ['controller' => 'Home', 'action' => 'index']);
 });
 
 /**

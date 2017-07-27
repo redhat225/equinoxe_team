@@ -11,7 +11,7 @@
 		<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="border-collapse: collapse;border: 1.5px solid #cccccc;">
 			<tr>
 				<td align="center" bgcolor="#ffffff">
-					<img src="https://equinoxe.btob-connexion.com/img/assets/newsletter/equinoxe_logo.png" alt="equinoxe_logo" width="250" style="display:block;"/>
+					<img src="https://equinoxe.btob-connexion.com/img/assets/equinoxe_logo.png" alt="equinoxe_logo" width="250" style="display:block;"/>
 				</td>
 			</tr>
 			<tr>

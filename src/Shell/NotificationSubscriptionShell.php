@@ -46,7 +46,7 @@ class NotificationSubscriptionShell extends Shell
          {
             $email = new Email('equinoxe_main_profile');
             $email->to($content['subscriber_email'])
-            ->bcc('remmanuel@vne-ci.com')
+            ->bcc('contact@krypton-technologie.net')
             ->subject('⏳ Demande de devis: Equinoxe Team 💼')
             ->template('subscription_notification','blank') 
             ->emailFormat('html')
