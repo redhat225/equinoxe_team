@@ -106,12 +106,12 @@
 	</div>
 </div>
 
-	<!-- Event Sponsors? -->
-		<div class="row center mg-padding-40 mg-margin-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
-			<div class="container">
+	 <!-- Event Sponsors? -->
+     <div class="row center mg-padding-40 mg-margin-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
+			 <div class="container">
 				<h6 class="mg-size-24 bold">Ils ont déjà choisi Equinoxe Event</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-				<div class="row center mg-padding-top-50 mg-padding-bottom-50">
+				    <div class="row center mg-padding-top-50 mg-padding-bottom-50">
 					<div class="col l3 m6 s12 grey-image" data-aos="zoom-in-down"><?= $this->Html->image('assets/equinoxe_logo.png',['style'=>'width:170px;']) ?></div>
 					<div class="col l3 m6 s12 grey-image" data-aos="zoom-in-down"><?= $this->Html->image('assets/equinoxe_logo.png',['style'=>'width:170px;']) ?></div>
 					<div class="col l3 m6 s12 grey-image" data-aos="zoom-in-down"><?= $this->Html->image('assets/equinoxe_logo.png',['style'=>'width:170px;']) ?></div>

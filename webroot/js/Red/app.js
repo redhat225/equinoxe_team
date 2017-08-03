@@ -5,12 +5,16 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
                 $rootScope.preloader = true;
                 if(toState.name==="app.contact")
                 {
-		            $rootScope.back_theme_newsletter = 'mg_sec_background_2';
+		            
                     $rootScope.navbar_invisible = false;
                 }
                 else
                 {
-		            $rootScope.back_theme_newsletter = 'grey lighten-2';
+                	if(toState.name==="app.home")
+                		$rootScope.back_theme_newsletter = 'mg_sec_background_2';
+                	else
+		                $rootScope.back_theme_newsletter = 'grey lighten-2';
+		            
                     $rootScope.navbar_invisible = true;
                 }
             });
