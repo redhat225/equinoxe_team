@@ -238,7 +238,7 @@
 	<!-- Event Sponsors? -->
 		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
 			<div class="container">
-				<h6 class="mg-size-24 bold">Les Marques qui nous font confiance</h6>
+				<h6 class="mg-size-24 bold">Nos Marques</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				<div class="row center mg-padding-top-50 mg-padding-bottom-50">
 					<div class="col l4 m12 s12 grey-image" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="https://www.equinoxe-event.com"><?= $this->Html->image('assets/event/equinoxe_logo.png',['style'=>'width:170px;']) ?></a></div>
