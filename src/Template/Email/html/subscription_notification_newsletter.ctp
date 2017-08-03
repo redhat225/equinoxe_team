@@ -47,7 +47,7 @@
 										<tr>
 											<td style="padding:25px 0 0 0;font-size: 14px;font-family: Helvetica, Arial, sans-serif;color:#231F20;line-height: 21px;">
 											    <b>
-											     <font color="#7a80a1">Vous recevrez dès que possible des bons plans de réductions sur des services intérieurs/extérieurs et aussi sur l'évènementiel.</font>
+											     <font color="#7a80a1">Vous recevrez dès que possible des bons plans de réductions sur les services à domicile, courses &amp; Livraisons et aussi sur l'évènementiel.</font>
                                                    
 											    </b>
 												

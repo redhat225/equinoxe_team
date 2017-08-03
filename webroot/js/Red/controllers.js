@@ -143,8 +143,13 @@ angular.module('equinoxe.controllers',[])
 		angular.element('.prezento-master-3').prezento();
 
 	}])
-	.controller('IndoorCtrl',['$scope','$rootScope','$templateCache',function($scope,$rootScope,$templateCache){
+	.controller('IndoorCtrl',['$scope','$rootScope','$templateCache','$location','$anchorScroll','$stateParams', function($scope,$rootScope,$templateCache,$location,$anchorScroll,$stateParams){
 		$templateCache.removeAll();
+		    	if($stateParams.is_sub_menu>0)
+    	{
+    		$location.hash('indoor_service_area');
+    		$anchorScroll();
+    	}
 		angular.element('.special-text').fitText(2,{minFontSize: '20px', maxFontSize: '22px'});
 
 		var self = this;
@@ -152,8 +157,13 @@ angular.module('equinoxe.controllers',[])
 
 	}])
 
-	.controller('OutdoorCtrl',['$scope','$rootScope','$templateCache',function($scope,$rootScope,$templateCache){
+	.controller('OutdoorCtrl',['$scope','$rootScope','$templateCache','$location','$anchorScroll','$stateParams', function($scope,$rootScope,$templateCache,$location,$anchorScroll,$stateParams){
 		$templateCache.removeAll();
+		    	if($stateParams.is_sub_menu>0)
+    	{
+    		$location.hash('outdoor_service_area');
+    		$anchorScroll();
+    	}
 		var self = this;
 		angular.element('.prezento-master-6').prezento();
 

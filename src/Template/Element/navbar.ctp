@@ -7,9 +7,82 @@
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a ui-sref="app.home" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar">Accueil</a></li>
-        <li><a ui-sref="app.indoor" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar">Assistance Intérieure</a></li>
-        <li><a ui-sref="app.outdoor" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar">Assistance Extérieure</a></li>
-        <li><a ui-sref="app.event" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar">Evenementiel</a></li>
+        <li><a ui-sref="app.indoor" data-beloworigin="true" data-constrainwidth="true" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar dropdown-button" dropdown data-hover="true" data-activates="indoor_dropdown">Services à Domicile</a></li>
+        <!-- Indoor Dropdown Structure -->
+        <ul class="dropdown-content mg_sec_background_2" id="indoor_dropdown">
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Travaux ménagers</a></li> 
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Petit travaux de jardinage</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Garde d'enfant</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Soutien scolaire</a></li>
+          <li class="divider"></li> 
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Soin d'esthétique</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Préparation de repas</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Assistance informatique</a></li>
+        </ul>
+
+                <ul class="dropdown-content mg_sec_background_2" id="indoor_dropdown_1">
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Travaux ménagers</a></li> 
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Petit travaux de jardinage</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Garde d'enfant</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Soutien scolaire</a></li>
+          <li class="divider"></li> 
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Soin d'esthétique</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Préparation de repas</a></li>
+          <li class="divider"></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Assistance informatique</a></li>
+        </ul>
+
+
+        <li><a ui-sref="app.outdoor" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown ui-sref-active="active" href="#!" class="black-text bold item_top_navbar dropdown-button" data-activates="outdoor_dropdown">Course &amp; Livraison</a></li>
+        <!-- Dropdown Outdoor Structure -->
+        <ul class="dropdown-content mg_sec_background_2" id="outdoor_dropdown">
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Livraison de repas</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Collecte &amp; livraison de linge</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Livraison de courses</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Maintenance et vigile temporaire</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Accompagnement d'enfant</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Accompagnement exceptionnel</a></li>
+        </ul>
+
+        <ul class="dropdown-content mg_sec_background_2" id="outdoor_dropdown_1">
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Livraison de repas</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Collecte &amp; livraison de linge</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Livraison de courses</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Maintenance et vigile temporaire</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Accompagnement d'enfant</a></li>
+            <li class="divider"></li>
+            <li><a href="" class="bold black-text" ui-sref="app.outdoor({is_sub_menu:1})">Accompagnement exceptionnel</a></li>
+        </ul>
+
+
+        <li><a data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="event_dropdown" ui-sref="app.event" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar">Evenementiel</a></li>
+        <!-- Dropdown Event Structure -->
+        <ul class="dropdown-content mg_sec_background_2" id="event_dropdown">
+            <li><a href="" class="bold black-text" ui-sref="app.event">Equinoxe Event</a></li>
+        </ul>
+
+                <ul class="dropdown-content mg_sec_background_2" id="event_dropdown_1">
+            <li><a href="" class="bold black-text" ui-sref="app.event">Equinoxe Event</a></li>
+        </ul>
+
         <li><a href="#!" ui-sref="app.contact" ui-sref-active="active" class="black-text bold item_top_navbar">Contact</a></li>
 
         <li class="mg_prim_background hvr-grow mg-height-67">
@@ -51,9 +124,9 @@
 
           <ul class="right hide-on-med-and-down ">
               <li><a ui-sref="app.home" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Accueil</a></li>
-              <li><a ui-sref="app.indoor" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Assistance Intérieure</a></li>
-              <li><a ui-sref="app.outdoor" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Assistance Extérieure</a></li>
-              <li><a ui-sref="app.event" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Evenementiel</a></li>
+              <li><a ui-sref="app.indoor" ui-sref-active="active" href="#!" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="indoor_dropdown_1" class="black-text bold item_top_navbar mg-height-70">Service à Domicile</a></li>
+              <li><a ui-sref="app.outdoor" ui-sref-active="active" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="outdoor_dropdown_1" href="#!" class="black-text bold item_top_navbar mg-height-70">Course &amp; Livraison</a></li>
+              <li><a ui-sref="app.event" ui-sref-active="active" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="event_dropdown_1"  href="#!" class="black-text bold item_top_navbar mg-height-70">Evenementiel</a></li>
               <li><a href="#!" ui-sref="app.contact" ui-sref-active="active" class="black-text bold item_top_navbar mg-height-70">Contact</a></li>
 
               <li class="mg_prim_background hvr-grow mg-height-70">
@@ -80,11 +153,14 @@
           <li class="center kr-padding-top-10 white">
              <?= $this->Html->image('assets/equinoxe_logo.png',['style'=>'width:225px;']) ?>
           </li>
-          <li><a ui-sref="app.home" ui-sref-active="active-side " href="#!" class="black-text bold mg-height-70 left-align">Accueil</a></li>
-          <li><a ui-sref="app.indoor" ui-sref-active="active-side " href="#!" class="black-text bold mg-height-70 left-align">Assistance Intérieure</a></li>
-          <li><a ui-sref="app.outdoor" ui-sref-active="active-side  " href="#!" class="black-text bold mg-height-70 left-align">Assistance Extérieure</a></li>
-          <li><a ui-sref="app.event" ui-sref-active="active-side  " href="#!" class="black-text bold mg-height-70 left-align">Evenementiel</a></li>
-          <li><a href="#!" ui-sref="app.contact" ui-sref-active="active-side  " class="black-text bold mg-height-70 left-align">Contact</a></li>
+          <li><a ui-sref="app.home" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Accueil</a></li>
+           
+           <li><a ui-sref="app.indoor" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Services à Domicile</a></li>
+
+           <li><a ui-sref="app.outdoor" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Course &amp; Livraison</a></li>
+
+          <li><a ui-sref="app.event" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Evenementiel</a></li>
+          <li><a href="#!" ui-sref="app.contact" ui-sref-active="active-side" class="black-text bold mg-height-70 left-align">Contact</a></li>
           <li style="background: rgba(252, 0, 255, 0.58);">
               <a href="https://www.facebook.com/equinoxe2" target="_blank" class="left-align bold">
                 <i class="ion-social-facebook black-text mg-size-25"></i> - Facebook

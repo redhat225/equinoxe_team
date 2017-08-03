@@ -73,12 +73,18 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
 			    .state('app.indoor',{
 			    	url:'service_indoor',
 			    	cache:false,
+			    	params:{
+			    		is_sub_menu:0
+			    	},
 			    	templateUrl:'/home/indoor',
 			    	controller:'IndoorCtrl as indoorctrl'
 			    })
 			    .state('app.outdoor',{
 			    	url:'service_outdoor',
 			    	cache:false,
+			    	params:{
+			    		is_sub_menu:0
+			    	},
 			    	templateUrl:'/home/outdoor',
 			    	controller:'OutdoorCtrl as outdoorctrl'
 			    });

@@ -36,7 +36,7 @@
 <!-- Description Outdoor Assistance -->
 		<div class="row center mg-padding-50 mg-margin-0 mg_prim_background">
 			<div class="container" style="width: 72%;">
-		    <h5 class="bold white-text">Assistance Extérieure</h5>
+		    <h5 class="bold white-text">Course et Livraison</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				    <p class="mg-size-20 white-text sweet-hypens">
 						Grâce à un large réseau de partenariat ainsi qu'une logistique à toute épreuve, Equinoxe Team vous offre les services qui méritent une grande réactivité et se positionne pour récupérer vos colis, réaliser l'accompagnement des personnes qui vous sont chères ou encore assurer la surveillance de votre domicile lors de vos déplacements en vacances.
@@ -46,7 +46,7 @@
 		</div>
 
 <!-- Equinoxe Team Indoor Cards -->
-<div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50">
+<div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50" id="outdoor_service_area">
 	<div class="col l4 s12 m12 mg-padding-28" data-aos="fade-down">
 		 <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Services de Livraison</span></h5>
 		 <h5 class="left-align mg-margin-bottom-25">Express</h5>
@@ -150,7 +150,7 @@
 						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
 						    <li>
 						      <div class="collapsible-header inside_element bold left-align active">Equinoxe Team proposerait-elle d'autres services non énumérés dans les cartes illustratives?</div>
-						      <div class="collapsible-body white"><span> Les services d'assistance extérieurs sont regroupés en catégorie de services incluant des sous-services. Lorsque vous <span class="bold mg_sec_color_1 pointer" ui-sref="app.home({is_subscribing:1})">renseignez le formulaire de souscription,</span> veuillez sélectionner <span class="mg_prim_color bold">l'option autre</span> si vous ne trouvez pas le service extérieur recherché. nous vous recontacteront.</span></div>
+						      <div class="collapsible-body white"><span> Les services de course &amp; livraison sont regroupés en catégorie de services incluant des sous-services. Lorsque vous <span class="bold mg_sec_color_1 pointer" ui-sref="app.home({is_subscribing:1})">renseignez le formulaire de souscription,</span> veuillez sélectionner <span class="mg_prim_color bold">l'option autre</span> si vous ne trouvez pas le service extérieur recherché. nous vous recontacteront.</span></div>
 						    </li>
 						  </ul>
 				      </div>
@@ -183,7 +183,7 @@
 	     		<h4 class="mg_prim_color bold mg-margin-top-50">LES SERVICES EXPRESS <br>A TOUTE EPREUVE</h4>
 			    <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 	     		<h6 class="sweet-hypens mg-padding-right-55 cancel-side-padding" style="line-height:1.4rem;">
-	     			Les services d'assistance extérieurs nous sont familiers puisque nous capitalisons une grande expérience dans ce secteur en terme de qualité de service et de contrat de bonne exécution, afin que vous soyez conforté dans votre orientation vers Equinoxe Team. <br>
+	     			Les services de course et livraison nous sont familiers puisque nous capitalisons une grande expérience dans ce secteur en terme de qualité de service et de contrat de bonne exécution, afin que vous soyez conforté dans votre orientation vers Equinoxe Team. <br>
 	     			Soucieux d'entretenir un partenariat solide marqué par une confiance et une satisfaction effective, nous portons nos principes en la matière aux travers de 3 grands différents points forts: <span class="bold">un service éclair, une approche humaniste, un service après vente à votre écoute.</span>
 	     		</h6>
 			<ul class="mg-padding-right-55 hide-on-med-only">

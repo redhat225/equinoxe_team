@@ -8,7 +8,7 @@
 	<div class="row center mg-padding-50 grey lighten-4">
 		<div class="col s12 l4 m12 center mg-padding-top-30" data-aos="zoom-in">
 		    <?= $this->Html->image('assets/home/asset_1.png',['style'=>'width:150px;'])  ?>
-			<h6 class="bold mg-size-22">Assistance Intérieure</h6>
+			<h6 class="bold mg-size-22">Services à Domicile</h6>
 			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">
 			  Nous vous proposons un large éventail de prestations couvrant les services d'hygyène, de jardinage ainsi que de soutien scolaire et informatique. Confirmez-nous votre disponibilité et les rouages d'équinoxe tourneront pour vous!
 			</p>
@@ -19,7 +19,7 @@
 		<div class="col s12 m12 l4 center mg-padding-top-30" data-aos="zoom-in">
 		    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:167px;','class'=>'hide-on-med-and-down'])  ?>
 		    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:200px;','class'=>'hide-on-large-only'])  ?>
-			<h6 class="bold mg-size-22">Assistance Extérieure</h6>
+			<h6 class="bold mg-size-22">Course &amp; Livraison</h6>
 			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens" style="text-align:match-parent;">Besoin de services express comme les livraisons repas et récupération de courses? Notre agence est réactive et prête à vous alléger votre journée.Les services extérieures comprennent également l'accompagnement des personnes et les vigiles.</p>
 			<button ui-sref="app.outdoor" class="btn mg_prim_background white-text bold mg-margin-top-20">Découvrir</button>
 		</div>
@@ -33,11 +33,13 @@
 
 	<div class="row center kr-margin-top-70 mg-padding-70">
 		<div class="container">
-			<h5 class="special-tex bold">EQUINOXE TEAM</h5>
+			<h5 class="special-tex bold">Qui sommes-nous</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 			    <p class="special-text- mg-size-20" class="sweet-hypens">
-					Equinoxe Team est une agence multiservice axée sur l'évènementiel ainsi que les services d'assistance intérieurs et extérieurs.Nous sommes l'élement actif de l'organisation de vos évènements en tout genre et de vos tâches intérieures/extérieures grâce à l'appui d'une équipe réactive, et créative qui se fixe la satisfaction complète de vos attentes! <br>	
-					Notre agence est dans la coutume du respect de l'application de sa politique d'offre de service de qualité, afin de vous garantir une expérience digne d'un service étoilé.
+					<b>EQUINOXE TEAM</b>, spécialiste de <b>l’aide-ménagère à Paris</b> vous accueille et vous simplifie la tache dans vos démarches pour vous trouver <b>une auxiliaire de vie qualifiée</b>. Notre organisme aide les seniors et personnes en quête de service à domicile à trouver une aide-ménagère pour une mise en place de prestations d’aide et d’accompagnement.
+					Nous mettons notre savoir-faire à votre disposition afin de vous accompagner dans vos financements et vos prises en charge pour des demandes de <b>services à la personne</b> : aide à domicile, aide-ménagère et repassage, aide au repas, aide au coucher et au lever, accompagnement aux sorties, garde malade, aide à la toilette, etc.
+					Nos agents d’<b>aide-ménagère à Paris</b> interviennent sur l’ensemble des arrondissements et dispose ainsi d’intervenantes compétentes et adaptées selon vos besoins. Notre objectif : vous trouver une <b>auxiliaire de vie ou aide-ménagère à Paris</b> que pourra vous accompagnement dans les taches de tous les jours. 
+					N’hésitez pas à nous faire une demande de devis gratuit, ou une demande de rappel pour toutes assistances.
 			    </p>
 			   
 		</div>
@@ -63,7 +65,7 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_1.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Assistance Extérieure</h5>
+						     <h5 class="black-text bold">Course &amp; Livraison</h5>
 						     <h6 class="black-text">Les services express sont un gage de notre réputation. Equinoxe Team est une équipe engagée de bonne volonté et imbibée de réactivité.</h6>
 						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
@@ -74,7 +76,7 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_4.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Assistance Intérieure</h5>
+						     <h5 class="black-text bold">Services à Domicile</h5>
 						     <h6 class="black-text">Pas le temps pour réaliser votre cuisine? celà ne devrait plus representer une question pour vous, la réponse nous vous la fournissons, sur la table! </h6>
 						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
@@ -87,7 +89,7 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_3.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Assistance Intérieure</h5>
+						     <h5 class="black-text bold">Services à Domicile</h5>
 						     <h6 class="black-text">Un truc est cassé ? planifier avec nous le passage du plombier à votre domicile, nous vous garantissons un rapport qualité-prix raisonablement vôtre!</h6>
 						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
@@ -99,7 +101,7 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_2.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Assistance Extérieure</h5>
+						     <h5 class="black-text bold">Course &amp; Livraison</h5>
 						     <h6 class="black-text">L'accompagnement &amp; l'assistance des personnes est aussi prise en compte par Equinoxe Team. Respirez, Mémé sera enchantée.</h6>
 						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>

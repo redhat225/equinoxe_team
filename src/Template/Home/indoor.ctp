@@ -28,7 +28,7 @@
 <!-- Description Indoor Assistance -->
 		<div class="row center mg-padding-50 mg-margin-0 mg_sec_background_6">
 			<div class="container" style="width: 72%;">
-		    <h5 class="special-txt bold">Assistance Intérieure</h5>
+		    <h5 class="special-txt bold">Services à Domicile</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				    <p class="special-tex sweet-hypens mg-size-20">
 						Concentrez désormais votre attention sur votre journée chargée en nous laissant le soin de nous occuper avec assurance et passion de vos attentes intérieures. Du jardin jusqu'à la salle bain , nous disposons d'un réseau de personnel qualifié et impregné de notre philosophie orientée en faveur d'un investissement infaillible dans l'accomplissement de l'objectif défini.
@@ -38,7 +38,7 @@
 		</div>
 
 <!-- Equinoxe Team Indoor Cards -->
-<div class="row center mg-padding-bottom-0 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50">
+<div class="row center mg-padding-bottom-0 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50" id="indoor_service_area">
 	<div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
 		  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Soutien Scolaire</span></h5>
 	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
