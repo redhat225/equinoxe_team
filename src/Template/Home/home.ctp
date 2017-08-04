@@ -78,7 +78,7 @@
 						  <figcaption class="mg_sec_background_2">
 						     <h5 class="black-text bold">Services à Domicile</h5>
 						     <h6 class="black-text">Pas le temps pour réaliser votre cuisine? celà ne devrait plus representer une question pour vous, la réponse nous vous la fournissons, sur la table! </h6>
-						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -91,7 +91,7 @@
 						  <figcaption class="mg_sec_background_2">
 						     <h5 class="black-text bold">Course &amp; Livraison</h5>
 						     <h6 class="black-text">Livraison de repas, de linge ou encore besoin de récupérer une course qui coince avec votre emploi du temps? faites-nous appel!</h6>
-						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -103,7 +103,7 @@
 						  <figcaption class="mg_sec_background_2">
 						     <h5 class="black-text bold">Services à Domicile</h5>
 						     <h6 class="black-text">L'aide ménagère est l'une de nos principales spécialités.Faites confiance aux équipes de Equinoxe Team.</h6>
-						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
