@@ -52,10 +52,10 @@
 		<div class="col s12 mg-padding-0 mg_sec_background_1">
 			<div class="col l4 m12 s12 mg-padding-0">
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
-					    <?= $this->Html->image('assets/home/event.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
+					    <?= $this->Html->image('assets/home/service_11.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
 						     <h5 class="black-text bold">Evènementiel</h5>
-						     <h6 class="black-text">Du choix des lieux jusqu'au choix du Dj, nous sommes sur tous les fronts pour que votre stress soit celui en rapport avec l'assurance de pas de danse bien effectués.</h6>
+						     <h6 class="black-text">L'incroyable anniversaire de vos bouts d'chou sera la mission de equinoxe event.</h6>
 						     <button ui-sref="app.event" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
@@ -66,7 +66,7 @@
 					    <?= $this->Html->image('assets/home/service_1.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
 						     <h5 class="black-text bold">Course &amp; Livraison</h5>
-						     <h6 class="black-text">Les services express sont un gage de notre réputation. Equinoxe Team est une équipe engagée de bonne volonté et imbibée de réactivité.</h6>
+						     <h6 class="black-text">L'accompagnement &amp; l'assistance des personnes est aussi prise en compte par Equinoxe Team. Respirez, Mémé sera enchantée..</h6>
 						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
@@ -89,8 +89,8 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_3.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Services à Domicile</h5>
-						     <h6 class="black-text">Un truc est cassé ? planifier avec nous le passage du plombier à votre domicile, nous vous garantissons un rapport qualité-prix raisonablement vôtre!</h6>
+						     <h5 class="black-text bold">Course &amp; Livraison</h5>
+						     <h6 class="black-text">Livraison de repas, de linge ou encore besoin de récupérer une course qui coince avec votre emploi du temps? faites-nous appel!</h6>
 						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
@@ -101,8 +101,8 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_2.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Course &amp; Livraison</h5>
-						     <h6 class="black-text">L'accompagnement &amp; l'assistance des personnes est aussi prise en compte par Equinoxe Team. Respirez, Mémé sera enchantée.</h6>
+						     <h5 class="black-text bold">Services à Domicile</h5>
+						     <h6 class="black-text">L'aide ménagère est l'une de nos principales spécialités.Faites confiance aux équipes de Equinoxe Team.</h6>
 						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
@@ -241,10 +241,10 @@
 				<h6 class="mg-size-24 bold">Nos Marques</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				<div class="row center mg-padding-top-50 mg-padding-bottom-50">
-					<div class="col l4 m12 s12 grey-image" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="https://www.equinoxe-event.com"><?= $this->Html->image('assets/event/equinoxe_logo.png',['style'=>'width:170px;']) ?></a></div>
-					<div class="col l4 m12 s12 grey-image" data-aos="zoom-in-down"><a href="http://jefetou.fr" target="_blank" class="pointer">
+					<div class="col l4 m12 s12 grey-image mg-margin-top-30" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="https://www.equinoxe-event.com"><?= $this->Html->image('assets/event/equinoxe_logo.png',['style'=>'width:170px;']) ?></a></div>
+					<div class="col l4 m12 s12 grey-image mg-margin-top-30" data-aos="zoom-in-down"><a href="http://jefetou.fr" target="_blank" class="pointer">
 						<?= $this->Html->image('assets/home/jefetou_logo.png',['style'=>'width:170px;']) ?></a></div>
-					<div class="col l4 m12 s12 grey-image" data-aos="zoom-in-down"><a href="http://www.africafootnews.com" target="_blank" class="pointer"><?= $this->Html->image('assets/home/foot_logo.png',['style'=>'width:170px;']) ?></a></div>
+					<div class="col l4 m12 s12 grey-image mg-margin-top-30" data-aos="zoom-in-down"><a href="http://www.africafootnews.com" target="_blank" class="pointer"><?= $this->Html->image('assets/home/foot_logo.png',['style'=>'width:170px;']) ?></a></div>
 				</div>
 			</div>
 		</div>

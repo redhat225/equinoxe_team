@@ -4,7 +4,7 @@
 	input.ng-invalid{
 		border-bottom:2px solid red;
 	}
-	
+
 	input.ng-pristine{
 		border-bottom:2px solid grey !important;
 	}
