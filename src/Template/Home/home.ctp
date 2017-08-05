@@ -52,22 +52,22 @@
 		<div class="col s12 mg-padding-0 mg_sec_background_1">
 			<div class="col l4 m12 s12 mg-padding-0">
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
-					    <?= $this->Html->image('assets/home/service_11.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
+					    <?= $this->Html->image('assets/indoor/sub_banner_2.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Evènementiel</h5>
-						     <h6 class="black-text">L'incroyable anniversaire de vos bouts d'chou sera la mission de equinoxe event.</h6>
-						     <button ui-sref="app.event" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Soutien scolaire</h5>
+						     <h6 class="black-text">Le soutien approprié que vous attendiez est maintenant à votre disposition avec Equinoxe Team.</h6>
+						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
 			</div>
 			<div class="col l4 m12 s12 mg-padding-0">
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
-					    <?= $this->Html->image('assets/home/service_1.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
+					    <?= $this->Html->image('assets/indoor/sub_banner_1.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Course &amp; Livraison</h5>
-						     <h6 class="black-text">L'accompagnement &amp; l'assistance des personnes est aussi prise en compte par Equinoxe Team. Respirez, Mémé sera enchantée..</h6>
-						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Assistance Informatique</h5>
+						     <h6 class="black-text">Notre Equique de Formateur Expérimentés vous assistes dans des services de dépannages et d'initiation rapide aux outils informatiques.</h6>
+						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -76,7 +76,7 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_4.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Services à Domicile</h5>
+						     <h5 class="black-text bold">Préparation de repas</h5>
 						     <h6 class="black-text">Pas le temps pour réaliser votre cuisine? celà ne devrait plus representer une question pour vous, la réponse nous vous la fournissons, sur la table! </h6>
 						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
@@ -87,11 +87,11 @@
 		<div class="col s12 mg-padding-0 mg_sec_background_2">
 			<div class="col l4 m12 s12 mg-padding-0">
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
-					    <?= $this->Html->image('assets/home/service_3.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
+					    <?= $this->Html->image('assets/indoor/sub_banner_5.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Course &amp; Livraison</h5>
-						     <h6 class="black-text">Livraison de repas, de linge ou encore besoin de récupérer une course qui coince avec votre emploi du temps? faites-nous appel!</h6>
-						     <button ui-sref="app.outdoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Garde d'Enfant</h5>
+						     <h6 class="black-text">Allez tranquilement en week-end avec votre dulciné, Equinoxe Team s'occupe de votre bout d'chou.</h6>
+						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>
@@ -101,20 +101,19 @@
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
 					    <?= $this->Html->image('assets/home/service_2.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Services à Domicile</h5>
+						     <h5 class="black-text bold">Travaux Ménagers</h5>
 						     <h6 class="black-text">L'aide ménagère est l'une de nos principales spécialités.Faites confiance aux équipes de Equinoxe Team.</h6>
 						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
-  					
-						</figure>
+				    </figure>
 			</div>
 			<div class="col l4 m12 s12 mg-padding-0">
 					<figure class=" mg-margin-0 imghvr-zoom-out mg_sec_background_1">
-					    <?= $this->Html->image('assets/home/service_7.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
+					    <?= $this->Html->image('assets/indoor/sub_banner_6.jpg',['style'=>'width:100%;display:block !important;','class'=>'']) ?>
 						  <figcaption class="mg_sec_background_2">
-						     <h5 class="black-text bold">Evènementiel</h5>
-						     <h6 class="black-text">Nous vous proposons plusieurs thèmes, lieux et décorations pour votre prochain event de folie! laissez-nous vous accompagner.</h6>
-						     <button ui-sref="app.event" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
+						     <h5 class="black-text bold">Petits Travaux de Jardinage</h5>
+						     <h6 class="black-text">Parce que la beauté de votre maison est dans ce qu'elle a à offrir de plus naturel, Equinoxe Team s'occupe délicatement de votre jardin.</h6>
+						     <button ui-sref="app.indoor" class="btn white-text bold mg_prim_background" style="position: absolute;bottom: 0;left: 0;width: 100%;">En savoir plus</button>
 						  </figcaption>
   					
 						</figure>

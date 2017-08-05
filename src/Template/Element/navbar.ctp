@@ -12,7 +12,7 @@
         <ul class="dropdown-content mg_sec_background_2" id="indoor_dropdown">
           <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Travaux ménagers</a></li> 
           <li class="divider"></li>
-          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Petit travaux de jardinage</a></li>
+          <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Petits travaux de jardinage</a></li>
           <li class="divider"></li>
           <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Garde d'enfant</a></li>
           <li class="divider"></li>
