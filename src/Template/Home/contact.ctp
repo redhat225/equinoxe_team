@@ -20,11 +20,9 @@
 		 <div class="container bold">
 		 	 <?= $this->Html->image('assets/equinoxe_logo.png',['style'=>'width:250px;margin-top:5%; cursor:pointer;','ui-sref'=>'app.home']) ?>
 		 	 <p class="sweet-hypens mg-padding-right-20 mg-padding-left-10">
-				EQUINOXE TEAM, spécialiste de l’aide-ménagère à Paris vous accueille et vous simplifie la tache dans vos démarches pour vous trouver une auxiliaire de vie qualifiée. Notre organisme aide les seniors et personnes en quête de service à domicile à trouver une aide-ménagère pour une mise en place de prestations d’aide et d’accompagnement.
-				Nous mettons notre savoir-faire à votre disposition afin de vous accompagner dans vos financements et vos prises en charge pour des demandes de services à la personne : aide à domicile, aide-ménagère et repassage, aide au repas, aide au coucher et au lever, accompagnement aux sorties, garde malade, aide à la toilette, etc.
-				Nos agents d’aide-ménagère à Paris interviennent sur l’ensemble des arrondissements et dispose ainsi d’intervenantes compétentes et adaptées selon vos besoins. Notre objectif : vous trouver une auxiliaire de vie ou aide-ménagère à Paris que pourra vous accompagnement dans les taches de tous les jours. 
-				N’hésitez pas à nous faire une demande de devis gratuit, ou une demande de rappel pour toutes assistances.
-
+					<b>EQUINOXE TEAM</b>, spécialiste de l’aide A DOMICILE à Paris vous accueille et vous simplifie la tache dans vos démarches pour vous trouver un personnel qualifié. Notre organisme PROPOSE DES PRESTATIONS sur mesure. Il vous accompagne dans votre recherche d’un personnel qualifié. Nous mettons notre savoir-faire à votre disposition afin de vous guider dans vos prises de décisions pour toutes vos demandes de services à la personne : aide à domicile, aide-ménagère et repassage, aide au repas, aide au coucher et au lever, accompagnement aux sorties, garde malade, aide à la toilette, etc.
+					<b>Equinoxe Team</b> dispose d’intervenantes compétentes et adaptées selon vos besoins.
+					Notre objectif ? Vous trouvez une personne qui répond à vos attentes : <b>La perle rare qui saura effectuer</b> toutes les tâches de la vie de tous les jours. N’hésitez pas à nous contacter pour toute demande d’assistance.
 		 	 </p>
 		 	 
 

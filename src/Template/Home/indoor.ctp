@@ -39,20 +39,73 @@
 
 <!-- Equinoxe Team Indoor Cards -->
 <div class="row center mg-padding-bottom-0 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50" id="indoor_service_area">
-	<div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
-		  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Soutien Scolaire</span></h5>
-	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
+
+ <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
+ 				  <h5 class="bold left-align"><span style="border-bottom: 5px solid #f9f461;">Entretien de la maison</span></h5>
+	  <h5 class="left-align mg-margin-bottom-25">Et Travaux Ménagers</h5>
 	 <div class="card hoverable hvr-overline-from-left hvr-hang">
 	    <div class="card-image waves-effect waves-block waves-light">
-	      <img class="activator" src="/img/assets/indoor/sub_banner_2.jpg">
+	       <img class="activator" src="/img/assets/indoor/sub_banner_3.jpg">
 	    </div>
 	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Soutien Scolaire<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Nous accompagnons vos enfants dans leur réussite scolaire</p>
+	      <span class="card-title white-text left-align">Entretien de la maison<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Tout sera évidemment passé au peigne fin. Ne vous en inquietez surtout pas!</p>
 	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
 	</div>
+
+    <div class="col l4 s12 m12 mg-padding-28" data-aos="fade-down">
+	     <h5 class="bold left-align"><span style="border-bottom: 5px solid #7a80a1;">Assistance des personnes</span></h5>
+	     <h5 class="left-align mg-margin-bottom-25">agées</h5>
+		 <div class="card hoverable hvr-bob">
+		    <div class="card-image waves-effect waves-block waves-light">
+		      <img class="activator" src="/img/assets/outdoor/outdoor_service_2.jpg">
+		    </div>
+		    <div class="card-reveal mg_sec_background_1">
+		      <span class="card-title white-text left-align">Assistance des personnes agées<i class="ion-close right small"></i></span>
+		      <p class="white-text left-align">Dédié aux personnes ayant besoin d'une aide temporaire dans le cadre des promenades, aide à la mobilité réduite et transport, actes de la vie courante.</p>
+		      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
+		    </div>
+		  </div>
+	</div>
+
+
+	<div class="col l4 m12 s12 mg-padding-28" data-aos="fade-up">
+	  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Préparation de repas</span></h5>
+	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
+	  <div class="card hoverable hvr-overline-from-left hvr-hang">
+	    <div class="card-image waves-effect waves-block waves-light">
+	      <img class="activator" src="/img/assets/indoor/sub_banner_4.jpg">
+	    </div>
+	    <div class="card-reveal mg_sec_background_1">
+	      <span class="card-title white-text left-align">Préparation de repas<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Vous êtes invité à consommer sans modération à la signature gustative made by Equinoxe Team.</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
+	    </div>
+	  </div>
+	</div>
+
+
+</div>
+
+
+<div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-0">
+
+   <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-up">
+      <h5 class="bold left-align"><span style="border-bottom: 5px solid #7a80a1;">Garde d'Enfant</span></h5>
+	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
+	  <div class="card hoverable hvr-overline-from-left hvr-hang">
+	    <div class="card-image waves-effect waves-block waves-light">
+	      <img class="activator" src="/img/assets/indoor/sub_banner_5.jpg">
+	    </div>
+	    <div class="card-reveal mg_sec_background_1">
+	      <span class="card-title white-text left-align">Garde d'Enfant<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">En déplacement d'affaire ou dans un contexte nécessitant votre absence, vos progénitures seront gardés par des pros.</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
+	    </div>
+	  </div>
+   </div>
 
     <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
 	     <h5 class="bold left-align"><span style="border-bottom: 5px solid #7a80a1;">Assistance Informatique</span></h5>
@@ -69,53 +122,7 @@
 		  </div>
 	</div>
 
- <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
- 				  <h5 class="bold left-align"><span style="border-bottom: 5px solid #f9f461;">Entretien de la maison</span></h5>
-	  <h5 class="left-align mg-margin-bottom-25">Et Travaux Ménagers</h5>
-	 <div class="card hoverable hvr-overline-from-left hvr-hang">
-	    <div class="card-image waves-effect waves-block waves-light">
-	       <img class="activator" src="/img/assets/indoor/sub_banner_3.jpg">
-	    </div>
-	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Entretien de la maison<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Tout sera évidemment passé au peigne fin. Ne vous en inquietez surtout pas!</p>
-	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
-	    </div>
-	  </div>
-	</div>
-</div>
 
-
-<div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-0">
-	<div class="col l4 m12 s12 mg-padding-28" data-aos="fade-up">
-	  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Préparation de repas</span></h5>
-	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
-	  <div class="card hoverable hvr-overline-from-left hvr-hang">
-	    <div class="card-image waves-effect waves-block waves-light">
-	      <img class="activator" src="/img/assets/indoor/sub_banner_4.jpg">
-	    </div>
-	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Préparation de repas<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">Vous êtes invité à consommer sans modération à la signature gustative made by Equinoxe Team.</p>
-	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
-	    </div>
-	  </div>
-	</div>
-
-   <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-up">
-      <h5 class="bold left-align"><span style="border-bottom: 5px solid #7a80a1;">Garde d'Enfants</span></h5>
-	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
-	  <div class="card hoverable hvr-overline-from-left hvr-hang">
-	    <div class="card-image waves-effect waves-block waves-light">
-	      <img class="activator" src="/img/assets/indoor/sub_banner_5.jpg">
-	    </div>
-	    <div class="card-reveal mg_sec_background_1">
-	      <span class="card-title white-text left-align">Garde d'Enfants<i class="ion-close right small"></i></span>
-	      <p class="white-text left-align">En déplacement d'affaire ou dans un contexte nécessitant votre absence, vos progénitures seront gardés par des pros.</p>
-	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
-	    </div>
-	  </div>
-   </div>
 
    <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-up">
       <h5 class="bold left-align"><span style="border-bottom: 5px solid #f9f461;">Petits Travaux de Jardinage</span></h5>
@@ -127,6 +134,53 @@
 	    <div class="card-reveal mg_sec_background_1">
 	      <span class="card-title white-text left-align">Petits travaux de jardinage<i class="ion-close right small"></i></span>
 	      <p class="white-text left-align">Nous embelissons votre jardin et révélons toutes les couleurs qu'il dissimule.</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+<div class="row center mg-padding-bottom-50 mg-padding-left-50  mg-padding-right-50  mg-padding-top-50" id="outdoor_service_area">
+	<div class="col l4 s12 m12 mg-padding-28" data-aos="fade-down">
+		 <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Services de Livraison</span></h5>
+		 <h5 class="left-align mg-margin-bottom-25">Express</h5>
+		 <div class="card hoverable hvr-bob">
+		    <div class="card-image waves-effect waves-block waves-light">
+		        <img class="activator" src="/img/assets/outdoor/outdoor_service_1.jpg">
+		    </div>
+		    <div class="card-reveal mg_sec_background_1">
+			      <span class="card-title white-text left-align">Services de livraison<i class="ion-close right small"></i></span>
+			      <p class="white-text left-align">Que ce soit pour la livraison de votre linge , de repas ou encore d'un autre type de colis, Equinoxe Team est à votre écoute avec son esprit express!</p>
+			      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
+		    </div>
+		  </div>
+	</div>
+
+	<div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
+		  <h5 class="bold left-align"><span style="border-bottom: 5px solid #fc00ff;">Soutien Scolaire</span></h5>
+	  <h5 class="left-align mg-margin-bottom-25">A Domicile</h5>
+	 <div class="card hoverable hvr-overline-from-left hvr-hang">
+	    <div class="card-image waves-effect waves-block waves-light">
+	      <img class="activator" src="/img/assets/indoor/sub_banner_2.jpg">
+	    </div>
+	    <div class="card-reveal mg_sec_background_1">
+	      <span class="card-title white-text left-align">Soutien Scolaire<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Nous accompagnons vos enfants dans leur réussite scolaire</p>
+	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
+	    </div>
+	  </div>
+	</div>
+
+ <div class="col l4 m12 s12 mg-padding-28" data-aos="fade-down">
+ 				  <h5 class="bold left-align"><span style="border-bottom: 5px solid #f9f461;">Maintenance Et Vigile</span></h5>
+	  <h5 class="left-align mg-margin-bottom-25">Temporaire</h5>
+	 <div class="card hoverable hvr-bob">
+	    <div class="card-image waves-effect waves-block waves-light">
+	       <img class="activator" src="/img/assets/outdoor/outdoor_service_3.jpg">
+	    </div>
+	    <div class="card-reveal mg_sec_background_1">
+	      <span class="card-title white-text left-align">Maintenance et Vigile<i class="ion-close right small"></i></span>
+	      <p class="white-text left-align">Les services de vigile et maintenance assurent la sécurité de votre appartement, domicile lorsque vous êtes temporairement absent.</p>
 	      <a class="btn mg_prim_background left bold" href="#!" ui-sref="app.home({is_subscribing:1})">Souscrire</a>
 	    </div>
 	  </div>
@@ -168,12 +222,12 @@
 				    </li>
 
 				 	<li>
-				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Garde d'Enfants</div>
+				      <div class="collapsible-header title-inside-element bold left-align mg_sec_color_4">Garde d'Enfant</div>
 				      <div class="collapsible-body left-align mg_sec_color_4 mg-padding-0">
 						  <ul class="collapsible inside_element mg-margin-0" data-collapsible="accordion">
 						    <li>
 						      <div class="collapsible-header inside_element bold left-align active">Quel sont les tranches d'âges prise en compte ?</div>
-						      <div class="collapsible-body white"><span>La garde d'enfants est possible à partir de 3 ans </span></div>
+						      <div class="collapsible-body white"><span>La garde d'enfant est possible à partir de 3 ans </span></div>
 						    </li>
 						    <li>
 						      <div class="collapsible-header inside_element bold left-align">Les enfants handicapés sont-ils pris en compte?</div>

@@ -1,7 +1,7 @@
 <?php $this->layout='blank'; ?>
     <div class="prezento-master hide"></div>
-	<div class="row center mg-padding-0 mg-margin-top-30 mg-margin-bottom-0" style="overflow:hidden;" data-aos="fade-up">
-		<?= $this->Html->image('assets/home/wide_banner.jpg',['style'=>'width:100%;height:100%;display:block;','class'=>'scale-up-on-small-only']) ?>
+	<div class="row center mg-padding-0 mg-margin-top-0 mg-margin-bottom-0" style="overflow:hidden;" data-aos="fade-up">
+		<?= $this->Html->image('assets/home/banner_1.jpg',['style'=>'width:100%;height:100%;display:block;','class'=>'scale-up-on-small-only']) ?>
 	</div>
 
 	<!-- Picto Area -->
@@ -36,10 +36,9 @@
 			<h5 class="special-tex bold">Qui sommes-nous</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 			    <p class="special-text- mg-size-20" class="sweet-hypens">
-					<b>EQUINOXE TEAM</b>, spécialiste de <b>l’aide-ménagère à Paris</b> vous accueille et vous simplifie la tache dans vos démarches pour vous trouver <b>une auxiliaire de vie qualifiée</b>. Notre organisme aide les seniors et personnes en quête de service à domicile à trouver une aide-ménagère pour une mise en place de prestations d’aide et d’accompagnement.
-					Nous mettons notre savoir-faire à votre disposition afin de vous accompagner dans vos financements et vos prises en charge pour des demandes de <b>services à la personne</b> : aide à domicile, aide-ménagère et repassage, aide au repas, aide au coucher et au lever, accompagnement aux sorties, garde malade, aide à la toilette, etc.
-					Nos agents d’<b>aide-ménagère à Paris</b> interviennent sur l’ensemble des arrondissements et dispose ainsi d’intervenantes compétentes et adaptées selon vos besoins. Notre objectif : vous trouver une <b>auxiliaire de vie ou aide-ménagère à Paris</b> que pourra vous accompagnement dans les taches de tous les jours. 
-					N’hésitez pas à nous faire une demande de devis gratuit, ou une demande de rappel pour toutes assistances.
+					<b>EQUINOXE TEAM</b>, spécialiste de l’aide A DOMICILE à Paris vous accueille et vous simplifie la tache dans vos démarches pour vous trouver un personnel qualifié. Notre organisme PROPOSE DES PRESTATIONS sur mesure. Il vous accompagne dans votre recherche d’un personnel qualifié. Nous mettons notre savoir-faire à votre disposition afin de vous guider dans vos prises de décisions pour toutes vos demandes de services à la personne : aide à domicile, aide-ménagère et repassage, aide au repas, aide au coucher et au lever, accompagnement aux sorties, garde malade, aide à la toilette, etc.
+					<b>Equinoxe Team</b> dispose d’intervenantes compétentes et adaptées selon vos besoins.
+					Notre objectif ? Vous trouvez une personne qui répond à vos attentes : <b>La perle rare qui saura effectuer</b> toutes les tâches de la vie de tous les jours. N’hésitez pas à nous contacter pour toute demande d’assistance
 			    </p>
 			   
 		</div>
@@ -235,7 +234,7 @@
 
 <!-- Branding -->
 	<!-- Event Sponsors? -->
-		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
+<!-- 		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
 			<div class="container">
 				<h6 class="mg-size-24 bold">Nos Marques</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
@@ -245,5 +244,13 @@
 						<?= $this->Html->image('assets/home/jefetou_logo.png',['style'=>'width:170px;']) ?></a></div>
 					<div class="col l4 m12 s12 grey-image mg-margin-top-30" data-aos="zoom-in-down"><a href="http://www.africafootnews.com" target="_blank" class="pointer"><?= $this->Html->image('assets/home/foot_logo.png',['style'=>'width:170px;']) ?></a></div>
 				</div>
+			</div>
+		</div> -->
+
+<!-- Assistance personnes agées -->
+		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
+			<div class="container">
+				<h6 class="mg-size-24 bold">ALLO PERSONNE AGEES : Maltraitance des personnes vulnérabless</h6>
+				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 			</div>
 		</div>
