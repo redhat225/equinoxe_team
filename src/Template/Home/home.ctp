@@ -1,41 +1,65 @@
 <?php $this->layout='blank'; ?>
-    <div class="prezento-master hide"></div>
 	<div class="row center mg-padding-0 mg-margin-top-0 mg-margin-bottom-0" style="overflow:hidden;" data-aos="fade-up">
 		<?= $this->Html->image('assets/home/banner_1.jpg',['style'=>'width:100%;height:100%;display:block;','class'=>'scale-up-on-small-only']) ?>
 	</div>
 
-	<!-- Picto Area -->
-	<div class="row center mg-padding-50 grey lighten-4">
-		<div class="col s12 l4 m12 center mg-padding-top-30" data-aos="zoom-in">
-		    <?= $this->Html->image('assets/home/asset_1.png',['style'=>'width:150px;'])  ?>
-			<h6 class="bold mg-size-22">Services à Domicile</h6>
-			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">
-			  Nous vous proposons un large éventail de prestations couvrant les services d'hygyène, de jardinage ainsi que de soutien scolaire et informatique. Confirmez-nous votre disponibilité et les rouages d'équinoxe tourneront pour vous!
-			</p>
-			 <button ui-sref="app.indoor" class="btn mg_prim_background white-text bold mg-margin-top-20">Découvrir</button>	
-		</div>
 
 
-		<div class="col s12 m12 l4 center mg-padding-top-30" data-aos="zoom-in">
-		    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:167px;','class'=>'hide-on-med-and-down'])  ?>
-		    <?= $this->Html->image('assets/home/asset_2.png',['style'=>'width:200px;','class'=>'hide-on-large-only'])  ?>
-			<h6 class="bold mg-size-22">Course &amp; Livraison</h6>
-			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens" style="text-align:match-parent;">Besoin de services express comme les livraisons repas et récupération de courses? Notre agence est réactive et prête à vous alléger votre journée.Les services extérieures comprennent également l'accompagnement des personnes et les vigiles.</p>
-			<button ui-sref="app.outdoor" class="btn mg_prim_background white-text bold mg-margin-top-20">Découvrir</button>
-		</div>
-		<div class="col s12 m12 l4 center mg-margin-top-30" data-aos="zoom-in">
-		    <?= $this->Html->image('assets/home/asset_3.png',['style'=>'width:150px;'])  ?>
-			<h6 class="bold mg-size-22">Evènementiel</h6>
-			<p class="mg-padding-left-30 mg-padding-right-30 sweet-hypens">Après avoir tant rèvé votre évènement il est temps ... de le vivre! Et oui, nous disposons d'un catalogue riche de lieux et de thème ainsi que d'une équipe spécialisée et expérimentée dans l'organisation, qui à cet effet maintiendront vos invités en extase. </p>
-			<button ui-sref="app.event" class="btn mg_prim_background white-text bold mg-margin-top-20">Découvrir</button>
-		</div>
-	</div>	
+<!-- Equinoxe Event advantages -->
+<div class="row center mg-padding-bottom-100 mg_sec_background_6" style="position: relative;">
+     <div style="position: absolute; width: 100%; top: 50px; right: 150px;" class="hide-on-med-and-down">
+				<div class="prezento-master-2">
 
-	<div class="row center kr-margin-top-70 mg-padding-70">
+				</div>
+	</div>
+	<div class="col l5 offset-l6 mg-margin-top-100 hide-on-med-and-down ">
+		<?= $this->Html->image('assets/home/jefetou.png',['class'=>'mg-width-200 center-align']) ?> 
+			       <div class="row center">
+						<p class="mg-size-16"><b>Jefêtout</b> est votre plateforme en ligne de réservation d'<b>aide-ménagère à domicile</b> pensée par <b>Équinoxe Team</b>. 
+						<b>En seulement 3 clics</b> réservez les services d’une aide-ménagère près de chez vous, toutes nos prestations sont fournies par des intervenants qualifiés, ceux-ci sont particulièrement à l’écoute de vos besoins et disposent de toute l’expérience nécessaire pour vous offrir des <b>services de qualité</b>.
+
+						N’attendez plus télécharger vite notre application mobile et recevez votre <b>aide-ménagère</b>.
+					    </p>
+				   </div>
+				    <div class="row center">
+				    	<div class="col s6">
+					<?= $this->Html->image('assets/home/play.png',['style'=>'width:180px;']) ?>
+				    		
+				    	</div>
+				    	<div class="col s6">
+					<?= $this->Html->image('assets/home/app-store.png',['style'=>'width:200px;']) ?>
+				    		
+				    	</div>
+				    </div>
+	</div>
+	<div class="col m12 s12 mg-margin-top-100 hide-on-large-only">
+		<?= $this->Html->image('assets/home/jefetou.png',['class'=>'mg-width-200 center-align']) ?> 
+			       <div class="row center">
+						<p class="sweet-hypens">Jefêtout est votre plateforme en ligne de réservation d'aide-ménagère à domicile pensée par Équinoxe Team. 
+						En seulement 3 clics réservez les services d’une aide-ménagère près de chez vous, toutes nos prestations sont fournies par des intervenants qualifiés, ceux-ci sont particulièrement à l’écoute de vos besoins et disposent de toute l’expérience nécessaire pour vous offrir des services de qualité.
+
+						N’attendez plus télécharger vite notre application mobile et recevez votre aide-ménagère.
+					    </p>
+				   </div>
+				    <div class="row center">
+				    	<div class="col l6 m6 s12">
+					<?= $this->Html->image('assets/home/play.png',['style'=>'width:180px;']) ?>
+				    		
+				    	</div>
+				    	<div class="col l6 m6 s12">
+					<?= $this->Html->image('assets/home/app-store.png',['style'=>'width:200px;']) ?>
+				    		
+				    	</div>
+				    </div>
+	</div>
+</div>
+
+
+	<div class="row center mg-padding-right-70 mg-padding-left-70 mg-padding-bottom-70 mg-padding-top-30">
 		<div class="container">
 			<h5 class="special-tex bold">Qui sommes-nous</h5>
 			 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-			    <p class="special-text- mg-size-20" class="sweet-hypens">
+			    <p class="special-text- sweet-hypens mg-size-19">
 					<b>EQUINOXE TEAM</b>, spécialiste de l’aide A DOMICILE à Paris vous accueille et vous simplifie la tache dans vos démarches pour vous trouver un personnel qualifié. Notre organisme PROPOSE DES PRESTATIONS sur mesure. Il vous accompagne dans votre recherche d’un personnel qualifié. Nous mettons notre savoir-faire à votre disposition afin de vous guider dans vos prises de décisions pour toutes vos demandes de services à la personne : aide à domicile, aide-ménagère et repassage, aide au repas, aide au coucher et au lever, accompagnement aux sorties, garde malade, aide à la toilette, etc.
 					<b>Equinoxe Team</b> dispose d’intervenantes compétentes et adaptées selon vos besoins.
 					Notre objectif ? Vous trouvez une personne qui répond à vos attentes : <b>La perle rare qui saura effectuer</b> toutes les tâches de la vie de tous les jours. N’hésitez pas à nous contacter pour toute demande d’assistance
@@ -125,7 +149,7 @@
 	<div class="row center mg-padding-50">
 		    <h6 class="mg-size-25 bold">Notre Mission, Votre Bien-être</h6>
 	         <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-	        <h6 class="mg-size-18" style="padding-left:13%;padding-right: 13%;">Nous oeuvrons profondémment pour vous garantir des services de qualité, nos clients l'attestent!</h6>
+	        <h6 class="mg-size-19" style="padding-left:13%;padding-right: 13%;">Nous oeuvrons profondémment pour vous garantir des services de qualité, nos clients l'attestent!</h6>
 
 		<div class="col l4 m12 s12 mg-margin-top-40">
 				<blockquote class="mg-size-18 grey-text text-darken-1 left-align">
@@ -222,7 +246,7 @@
 
 
 	<!-- Any Questions? -->
-		<div class="row center mg-padding-40 mg-margin-0 grey lighten-2">
+		<div class="row center mg-padding-40 mg-margin-0">
 			<div class="container">
 				<h6 class="mg-size-24 bold">Des Questions ?</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
@@ -248,9 +272,10 @@
 		</div> -->
 
 <!-- Assistance personnes agées -->
-		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
+<!-- 		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
 			<div class="container">
 				<h6 class="mg-size-24 bold">ALLO PERSONNE AGEES : Maltraitance des personnes vulnérabless</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 			</div>
 		</div>
+ -->

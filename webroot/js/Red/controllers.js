@@ -53,7 +53,43 @@ angular.module('equinoxe.controllers',[])
     	
 		var self = this;
 		self.contact = "";
-		angular.element('.prezento-master').prezento();
+
+		angular.element('.prezento-master-2').prezento({
+	      devices: [{
+	        name: 'iphone',
+	        deviceImageSRC: '/img/assets/devices/iphone.png',
+	        xLeftTop: 42,
+	        yLeftTop: 135,
+	        xRightBottom: 470,
+	        yRightBottom: 829,
+	        breakpoint: 1024,
+	        bgImgSrc : '/img/assets/event/Screenshot_20170818-171148.png',
+	        bgTransitionDuration: '8s'
+	      },{
+	        name: 'ipad',
+	        deviceImageSRC: '/img/assets/devices/ipad.png',
+	        xLeftTop: 112,
+	        yLeftTop: 110,
+	        xRightBottom: 950,
+	        yRightBottom: 1144,
+	        breakpoint: 480,
+	        bgImgSrc : '/img/assets/event/Screenshot_20170818-171148.png',
+	        bgTransitionDuration: '4s'
+	      },{
+	        name: 'iphone',
+	        deviceImageSRC: '/img/assets/devices/iphone.png',
+	        xLeftTop: 42,
+	        yLeftTop: 135,
+	        xRightBottom: 470,
+	        yRightBottom: 829,
+	        breakpoint: 0,
+	        bgImgSrc : '/img/assets/event/Screenshot_20170818-171148.png',
+	        bgTransitionDuration: '2s'
+	      }], 
+	      responsive: 'window',
+	      resetWhenBelow:true,
+	      startAfterScroll:true
+	    });
 
 		self.service={
 			service_object:'',

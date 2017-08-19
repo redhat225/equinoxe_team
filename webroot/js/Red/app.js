@@ -10,10 +10,7 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
                 }
                 else
                 {
-                	if(toState.name==="app.home")
-                		$rootScope.back_theme_newsletter = 'mg_sec_background_2';
-                	else
-		                $rootScope.back_theme_newsletter = 'grey lighten-2';
+		                $rootScope.back_theme_newsletter = 'mg_sec_background_6';
 		            
                     $rootScope.navbar_invisible = true;
                 }

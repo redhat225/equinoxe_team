@@ -36,41 +36,6 @@
           <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Maintenance et vigile temporaire</a></li>
         </ul>
 
-
-
-    <!--     <li><a ui-sref="app.indoor" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown ui-sref-active="active" href="#!" class="black-text bold item_top_navbar dropdown-button" data-activates="indoor_dropdown">Course &amp; Livraison</a></li> -->
-        <!-- Dropdown indoor Structure -->
-<!--         <ul class="dropdown-content mg_sec_background_2" id="indoor_dropdown">
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Livraison de repas</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Collecte &amp; livraison de linge</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Livraison de courses</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Maintenance et vigile temporaire</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Accompagnement d'enfant</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Accompagnement exceptionnel</a></li>
-        </ul> -->
-
-<!--         <ul class="dropdown-content mg_sec_background_2" id="indoor_dropdown_1">
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Livraison de repas</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Collecte &amp; livraison de linge</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Livraison de courses</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Maintenance et vigile temporaire</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Accompagnement d'enfant</a></li>
-            <li class="divider"></li>
-            <li><a href="" class="bold black-text" ui-sref="app.indoor({is_sub_menu:1})">Accompagnement exceptionnel</a></li>
-        </ul> -->
-
-
-<!--         <li><a data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="event_dropdown" ui-sref="app.event" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar">Evenementiel</a></li> -->
-        <!-- Dropdown Event Structure -->
         <ul class="dropdown-content mg_sec_background_2" id="event_dropdown">
             <li><a href="" class="bold black-text" ui-sref="app.event">Equinoxe Event</a></li>
         </ul>
@@ -81,7 +46,7 @@
 
         <li><a href="#!" ui-sref="app.contact" ui-sref-active="active" class="black-text bold item_top_navbar">Contact</a></li>
 
-        <li class="mg_sec_background_1 mg-height-67"><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="white-text bold item_top_navbar">Application Jefetou</a></li>
+        <li class="mg_sec_background_1 mg-height-67"><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="white-text bold item_top_navbar">Application Jefêtou</a></li>
 
         <li class="mg_prim_background hvr-grow mg-height-67">
               <a href="https://www.facebook.com/equinoxe2" target="_blank">
@@ -128,7 +93,7 @@
               <!-- <li><a ui-sref="app.event" ui-sref-active="active" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="event_dropdown_1"  href="#!" class="black-text bold item_top_navbar mg-height-70">Evenementiel</a></li> -->
               <li><a href="#!" ui-sref="app.contact" ui-sref-active="active" class="black-text bold item_top_navbar mg-height-70">Contact</a></li>
 
-              <li class="mg_sec_background_1"><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="white-text bold item_top_navbar mg-height-70">Application Jefetou</a></li>
+              <li class="mg_sec_background_1"><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="white-text bold item_top_navbar mg-height-70">Application Jefêtou</a></li>
 
               <li class="mg_prim_background hvr-grow mg-height-70">
                     <a href="https://www.facebook.com/equinoxe2" target="_blank">
@@ -163,7 +128,7 @@
          <!--  <li><a ui-sref="app.event" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Evenementiel</a></li> -->
           <li><a href="#!" ui-sref="app.contact" ui-sref-active="active-side" class="black-text bold mg-height-70 left-align">Contact</a></li>
 
-           <li><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="black-text bold mg-height-70 left-align">Application Jefetou</a></li>
+           <li><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="black-text bold mg-height-70 left-align">Application Jefêtou</a></li>
           <li style="background: rgba(252, 0, 255, 0.58);">
               <a href="https://www.facebook.com/equinoxe2" target="_blank" class="left-align bold">
                 <i class="ion-social-facebook black-text mg-size-25"></i> - Facebook
