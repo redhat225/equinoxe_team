@@ -72,7 +72,7 @@ $cakeDescription = 'Equinoxe Team';
     
     <!-- loader -->
 
-    <div class="hide-on-med-and-down row center mg-margin-top-70" ng-show="$root.preloader" style="width: 100%; position:fixed;">
+<!--     <div class="hide-on-med-and-down row center mg-margin-top-70" ng-show="$root.preloader" style="width: 100%; position:fixed;">
                     <?= $this->Html->image('assets/home/wide_banner_blank.jpg',['style'=>'width:100%;display:block;']) ?>
                         <div class="col s12 white-text" style="position: absolute; width: 100%; top:40%;">
                           <div class="container">
@@ -92,7 +92,18 @@ $cakeDescription = 'Equinoxe Team';
                           </div>
 
                         </div>
+      </div> -->
+
+      <div ng-show="$root.preloader" class="row center mg-margin-0 hide-on-med-and-down" style="position:relative;height:2000px;">
+          <div style="position: fixed;width:100%;margin-top: 20%;">
+          <?= $this->Html->image('assets/event/equinoxe_logo_custom.png',['style'=>'width:450px;']) ?>
+              <div class="progress mg_prim_background">
+                  <div class="indeterminate mg_sec_background_2"></div>
+              </div>
+          </div>
+
       </div>
+
       <!-- Preloader for smaller screen -->
       <div ng-show="$root.preloader" class="row center mg-margin-0 hide-on-large-only" style="background:url('/img/assets/event/event_wide_banner_yellow.jpg') 28% -16%;  position:relative;height:2000px;">
           <div style="position: fixed;width:100%;margin-top: 42%;">
