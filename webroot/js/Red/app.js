@@ -10,7 +10,7 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
                 }
                 else
                 {
-		                $rootScope.back_theme_newsletter = 'mg_sec_background_6';
+		                   $rootScope.back_theme_newsletter = 'mg_sec_background_2';
 		            
                     $rootScope.navbar_invisible = true;
                 }

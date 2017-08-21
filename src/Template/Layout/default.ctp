@@ -90,7 +90,6 @@ $cakeDescription = 'Equinoxe Team';
                                     <h2 class="mg-size-50"><span class="light">DE</span> <span class="bold" style="border-bottom: 8px solid #f9f461;">TOUS LES JOURS</span></h2>
                                </div>
                           </div>
-
                         </div>
       </div> -->
 
