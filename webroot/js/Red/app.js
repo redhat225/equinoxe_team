@@ -3,6 +3,7 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
 		    // Verifications Here
 		    $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
                 $rootScope.preloader = true;
+
                 if(toState.name==="app.contact")
                 {
 		            
@@ -10,13 +11,21 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
                 }
                 else
                 {
-		                   $rootScope.back_theme_newsletter = 'mg_sec_background_2';
-		            
+
+                	if(toState.name ==="app.home")
+                 	{
+                 		console.log('home');
+                       $rootScope.main_pricing_effect = true;
+                	}
+                	else
+                       $rootScope.main_pricing_effect = false;
+
+
+		            $rootScope.back_theme_newsletter = 'mg_sec_background_2';
                     $rootScope.navbar_invisible = true;
                 }
             });
             $rootScope.$on('$viewContentLoaded', function(event, toState, toParams, fromState, fromParams) {
-                
                 $rootScope.preloader = false;
             });
 
@@ -53,7 +62,8 @@ angular.module('equinoxe-team',['ui.router','equinoxe.services','equinoxe.contro
 			    .state('app.home',{
 			    	url:'home',
 			    	params:{
-			    		is_subscribing:0
+			    		is_subscribing:0,
+			    		is_pricing_selected:false
 			    	},
 			    	cache:false,
 			    	templateUrl:'/home/home',

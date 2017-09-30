@@ -45,6 +45,9 @@
         </ul>
 
         <li><a href="#!" ui-sref="app.contact" ui-sref-active="active" class="black-text bold item_top_navbar">Contact</a></li>
+        <!-- Pricing area -->
+        <li ng-show="$root.main_pricing_effect"><a href="#tarifs" class="black-text bold item_top_navbar">Tarifs</a></li>
+        <li ng-hide="$root.main_pricing_effect" ui-sref="app.home({is_pricing_selected:true})" ui-sref-active=""><a class="black-text bold item_top_navbar">Tarifs</a></li>
 
         <li class="mg_sec_background_1 mg-height-67"><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="white-text bold item_top_navbar">Application Jefêtou</a></li>
 
@@ -88,10 +91,14 @@
           <ul class="right hide-on-med-and-down ">
               <li><a ui-sref="app.home" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Accueil</a></li>
               <li><a ui-sref="app.indoor" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Service à Domicile</a></li>
-
-              <!-- <li><a ui-sref="app.indoor" ui-sref-active="active" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="indoor_dropdown_1" href="#!" class="black-text bold item_top_navbar mg-height-70">Course &amp; Livraison</a></li> -->
-              <!-- <li><a ui-sref="app.event" ui-sref-active="active" data-beloworigin="true" data-hover="true" data-constrainwidth="true"  dropdown data-activates="event_dropdown_1"  href="#!" class="black-text bold item_top_navbar mg-height-70">Evenementiel</a></li> -->
               <li><a href="#!" ui-sref="app.contact" ui-sref-active="active" class="black-text bold item_top_navbar mg-height-70">Contact</a></li>
+
+              <!-- Pricing area -->
+              <li ng-show="$root.main_pricing_effect"><a href="#tarifs" class="black-text bold item_top_navbar mg-height-70">Tarifs</a></li>
+              <li ng-hide="$root.main_pricing_effect" ui-sref="app.home({is_pricing_selected:true})" ui-sref-active=""><a class="black-text bold item_top_navbar mg-height-70">Tarifs</a></li>
+
+
+
 
               <li class="mg_sec_background_1"><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="white-text bold item_top_navbar mg-height-70">Application Jefêtou</a></li>
 
@@ -123,10 +130,11 @@
            
            <li><a ui-sref="app.indoor" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Services à Domicile</a></li>
 
-          <!--  <li><a ui-sref="app.indoor" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Course &amp; Livraison</a></li> -->
-
-         <!--  <li><a ui-sref="app.event" ui-sref-active="active-side" href="#!" class="black-text bold mg-height-70 left-align">Evenementiel</a></li> -->
           <li><a href="#!" ui-sref="app.contact" ui-sref-active="active-side" class="black-text bold mg-height-70 left-align">Contact</a></li>
+
+          <!-- Pricing area -->
+          <li ng-show="$root.main_pricing_effect"><a href="#tarifs" class="black-text bold mg-height-70 left-align">Tarifs</a></li>
+          <li ng-hide="$root.main_pricing_effect"  ui-sref="app.home({is_pricing_selected:true})" ui-sref-active=""><a class="black-text bold mg-height-70 left-align">Tarifs</a></li>
 
            <li><a href="http://82.223.109.39:2003/home.html#/index/" target="_blank" class="black-text bold mg-height-70 left-align">Application Jefêtou</a></li>
           <li style="background: rgba(252, 0, 255, 0.58);">
@@ -155,6 +163,7 @@
          closeOnClick: true,
       draggable: true
     });
+
 $('#dynamic_navbar').fadeOut();
       $(window).scroll(function(){
 

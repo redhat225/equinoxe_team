@@ -50,7 +50,15 @@ angular.module('equinoxe.controllers',[])
     		$location.hash('subscription_form');
     		$anchorScroll();
     	}
-    	
+
+    	if($stateParams.is_pricing_selected === true)
+    	{
+    		$location.hash('tarifs');
+    		$anchorScroll();
+    	}
+    	angular.element('.scrollspy').scrollSpy({
+      		scrollOffset:50
+    	});
 		var self = this;
 		self.contact = "";
 
