@@ -246,7 +246,7 @@
 
 
 	<!-- Any Questions? -->
-		<div class="row center mg-padding-40 mg-margin-0">
+		<div class="row center mg-padding-40 mg-margin-0 mg_sec_background_6">
 			<div class="container">
 				<h6 class="mg-size-24 bold">Des Questions ?</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
@@ -256,20 +256,21 @@
 			</div>
 		</div>
 
-<!-- Branding -->
-	<!-- Event Sponsors? -->
-<!-- 		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
+	<!-- Pricing -->
+	<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">
 			<div class="container">
-				<h6 class="mg-size-24 bold">Nos Marques</h6>
+				<h6 class="mg-size-24 bold">Paiements alternatifs acceptés</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
-				<div class="row center mg-padding-top-50 mg-padding-bottom-50">
-					<div class="col l4 m12 s12 grey-image mg-margin-top-30" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="https://www.equinoxe-event.com"><?= $this->Html->image('assets/event/equinoxe_logo.png',['style'=>'width:170px;']) ?></a></div>
-					<div class="col l4 m12 s12 grey-image mg-margin-top-30" data-aos="zoom-in-down"><a href="http://jefetou.fr" target="_blank" class="pointer">
-						<?= $this->Html->image('assets/home/jefetou_logo.png',['style'=>'width:170px;']) ?></a></div>
-					<div class="col l4 m12 s12 grey-image mg-margin-top-30" data-aos="zoom-in-down"><a href="http://www.africafootnews.com" target="_blank" class="pointer"><?= $this->Html->image('assets/home/foot_logo.png',['style'=>'width:170px;']) ?></a></div>
+				<h6 class="mg-size-19" style="padding-left:16%;padding-right: 16%;">Toutes nos prestations sont facturées à 26,00 euros HT de l’heure! Soit 13 euros de l’heure après déduction fiscale.</h6>
+				<div class="row center mg-padding-top-30 mg-padding-bottom-50">
+					<div class="col l4 m12 s12 mg-margin-top-30" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="http://www.ticketrestaurant.fr/"><?= $this->Html->image('assets/home/asset_pricing_1.png',['style'=>'width:260px;']) ?></a></div>
+					<div class="col l4 m12 s12 mg-margin-top-30" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="http://www.cesu.urssaf.fr/cesweb/home.jsp"><?= $this->Html->image('assets/home/asset_pricing_3.png',['style'=>'width:170px;']) ?></a></div>
+					<div class="col l4 m12 s12 mg-margin-top-15 hide-on-med-and-down" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="#!"><?= $this->Html->image('assets/home/asset_pricing_2.png',['style'=>'width:150px;']) ?></a></div>
+					<!-- adjust on med and down -->
+					<div class="col l4 m12 s12 mg-margin-top-45 hide-on-large-only" data-aos="zoom-in-down"><a class="pointer" target="_blank" href="#!"><?= $this->Html->image('assets/home/asset_pricing_2.png',['style'=>'width:150px;']) ?></a></div>
 				</div>
 			</div>
-		</div> -->
+		</div> 
 
 <!-- Assistance personnes agées -->
 <!-- 		<div class="row center mg-padding-40 mg-margin-0 mg-margin-bottom-0" style="background:url('/img/assets/event/background_bottom.png') -900px -350px;">

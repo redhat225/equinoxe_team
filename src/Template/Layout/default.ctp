@@ -72,30 +72,9 @@ $cakeDescription = 'Equinoxe Team';
     
     <!-- loader -->
 
-<!--     <div class="hide-on-med-and-down row center mg-margin-top-70" ng-show="$root.preloader" style="width: 100%; position:fixed;">
-                    <?= $this->Html->image('assets/home/wide_banner_blank.jpg',['style'=>'width:100%;display:block;']) ?>
-                        <div class="col s12 white-text" style="position: absolute; width: 100%; top:40%;">
-                          <div class="container">
-                               <div class="container hide-on-small-and-down center" >
-                                    <h1 class="mg-size-50"> <span style="font-weight:100;"> L'EQUIPE </span>
-                                      <span
-                                         class="txt-rotate mg_prim_background"
-                                         data-period="2000"
-                                         data-rotate='[ "MULTISERVICE", "MULTITACHE", "MULTIPOLE", "MULTIFUN"]' style="border-bottom: 3px solid #fc00ff; font-weight: 800;"></span>
-                                    </h1>
-                                    <h2 class="mg-size-50">
-                                      <span class="light">A VOS</span>  <span class="bold" style="border-bottom: 8px solid #7a80a1;">BESOINS</span>
-                                    </h2>
-                                    
-                                    <h2 class="mg-size-50"><span class="light">DE</span> <span class="bold" style="border-bottom: 8px solid #f9f461;">TOUS LES JOURS</span></h2>
-                               </div>
-                          </div>
-                        </div>
-      </div> -->
-
       <div ng-show="$root.preloader" class="row center mg-margin-0 hide-on-med-and-down" style="position:relative;height:2000px;">
           <div style="position: fixed;width:100%;margin-top: 20%;">
-          <?= $this->Html->image('assets/event/equinoxe_logo_custom.png',['style'=>'width:450px;']) ?>
+          <?= $this->Html->image('assets/event/equinoxe_logo_custom.png',['style'=>'width:350px;']) ?>
               <div class="progress mg_prim_background">
                   <div class="indeterminate mg_sec_background_2"></div>
               </div>

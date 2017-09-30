@@ -49,5 +49,9 @@ class ElementController extends AppController
         
     }
 
+    public function map(){
+        
+    }
+
     
 }
