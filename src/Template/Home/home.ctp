@@ -196,13 +196,13 @@
 		<div class="parallax">
 			<?= $this->Html->image('assets/home/wide_banner_bottom.jpg',['style'=>'bottom: 50px !important;']) ?>
 		</div>
-		<!-- Black Banner -->
-			<div ng-show="homectrl.submitting" class="row center absolute-block black" style="width: 100%;height: 100%;left: 0;z-index: 500;top: 0;opacity: 0.85;">
-				<p class="white-text mg-margin-top-310">Traitement en cours</p>
-				<p><?= $this->Html->image('assets/preloaders/dot_loader.png',['class'=>'mg-width-100']) ?></p>
-			</div>
+	<!-- Black Banner -->
+	<div ng-show="homectrl.submitting" class="row center absolute-block black" style="width: 100%;height: 100%;left: 0;z-index: 500;top: 0;opacity: 0.85;">
+		<p class="white-text mg-margin-top-310">Traitement en cours</p>
+		<p><?= $this->Html->image('assets/preloaders/dot_loader.png',['class'=>'mg-width-100']) ?></p>
+	</div>
 
-		<div class="row" style="position: absolute;width: 100%;" id="subscription_form">
+	<div class="row" style="position: absolute;width: 100%;" id="subscription_form">
 		    <div class="container large-right-float-only-and-center-above">
 		       <div class="container left-align">
 		                             <div class="row">

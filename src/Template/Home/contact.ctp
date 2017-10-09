@@ -39,7 +39,7 @@
 							<br>
 							<span class="light-bold">Siret:</span> 82863504500010
 							<br>
-							<span class="light-bold">Tél:</span> 01 46 94 68 53 / 06 20 07 85 97
+							<span class="light-bold">Tél:</span> 01 46 94 68 52 / 06 09 21 95 96
 							<br>
 							<span class="light-bold">Fax:</span> 01 46 94 67 67 
 							<br>

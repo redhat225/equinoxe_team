@@ -152,8 +152,6 @@
                 <i class="ion-social-instagram-outline black-text mg-size-25"></i> - Instagram
               </a>
           </li>
-
-
       </ul>
 
     </div>

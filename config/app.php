@@ -11,6 +11,8 @@ return [
      */
     'debug' => filter_var(env('DEBUG', true), FILTER_VALIDATE_BOOLEAN),
 
+
+    //halt fire
     /**
      * Configure basic information about the application.
      *
@@ -194,8 +196,8 @@ return [
             'host' => 'ssl://ssl0.ovh.net',
             'port' => 465,
             'timeout' => 30,
-            'username' => 'remmanuel@vne-ci.com',
-            'password' => '123456789'
+            'username' => 'info@btob-connexion.com',
+            'password' => 'Rjeanpierre2017'
         ]
     ],
 
