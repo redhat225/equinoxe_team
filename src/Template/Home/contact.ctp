@@ -30,7 +30,7 @@
 		 	  <h5 style='text-transform:uppercase;font-weight: bold;'>Contact</h5>
 
 		 	  <div class="container">
-		 	  	<div class="container">
+		 	  	<div class="container"> 
 				 	  <P>
 				 	  		Equinoxe Team - Capital social 20 000 €uros <br>
 							18 rue Charles Graindorge 93170 Bagnolet
