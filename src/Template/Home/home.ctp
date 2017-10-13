@@ -251,7 +251,7 @@
 				<h6 class="mg-size-24 bold">Des Questions ?</h6>
 				 <?= $this->Html->image('assets/buble.png',['style'=>'width:50px;']) ?>
 				    <p id="special-text-" class="sweet-hypens mg-size-23">
-						Intérrogez nos services <br><span class="mg_prim_color">01 46 94 68 53 / 06 20 07 85 97</span> 	
+						Intérrogez nos services <br><span class="mg_prim_color">01 46 94 68 52 / 06 09 21 95 96</span> 	
 				    </p>	
 			</div>
 		</div>
