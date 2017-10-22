@@ -6,6 +6,8 @@
       <a style="position: absolute;left: 0px;" href="#" data-activates="slide-out" class="button-collapse"><i class="ion-android-menu black-text mg-size-40"></i></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+
         <li><a ui-sref="app.home" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar">Accueil</a></li>
         <li><a ui-sref="app.indoor" data-beloworigin="true" data-constrainwidth="true" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar dropdown-button" dropdown data-hover="true" data-activates="indoor_dropdown">Services à Domicile</a></li>
         <!-- Indoor Dropdown Structure -->
@@ -66,8 +68,11 @@
                 <i class="ion-social-twitter black-text"></i>
               </a>
         </li>
-
       </ul>
+          <!-- Player controller -->
+          <a class="right player-controller mg_sec_background_2 mg-height-67 mg-width-50">
+              <i class="player-controller-icon ion-volume-medium black-text small"></i>
+          </a>
     </div>
   </nav>
 
@@ -89,6 +94,7 @@
             <a style="position: absolute;left: 0px;" href="#" data-activates="slide-out" class="button-collapse"><i class="ion-android-menu black-text mg-size-40"></i></a>
 
           <ul class="right hide-on-med-and-down ">
+
               <li><a ui-sref="app.home" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Accueil</a></li>
               <li><a ui-sref="app.indoor" ui-sref-active="active" href="#!" class="black-text bold item_top_navbar mg-height-70">Service à Domicile</a></li>
               <li><a href="#!" ui-sref="app.contact" ui-sref-active="active" class="black-text bold item_top_navbar mg-height-70">Contact</a></li>
@@ -118,6 +124,10 @@
                     </a>
                 </li>
           </ul>
+          <!-- Player controller -->
+          <a class="right player-controller mg_sec_background_2 mg-height-70 mg-width-50">
+              <i class="player-controller-icon ion-volume-medium black-text small"></i>
+          </a>
       </div>
   </nav>
 </div>
@@ -172,5 +182,29 @@ $('#dynamic_navbar').fadeOut();
         $('#dynamic_navbar').fadeOut();
       }
   });
-      
+
+           // Howler sound controller
+            var sound = new Howl({
+              src:['/webroot/sound/music.mp3'],
+              volume:0.5,
+              loop:true,
+              autoplay:true,
+              html5:true
+            });
+
+            $('.player-controller').on('click', function(){
+                var $sound_player_trigger = $('.player-controller-icon');
+              if($sound_player_trigger.hasClass('ion-volume-medium'))
+              {
+                $('.player-controller').removeClass('mg_sec_background_2').addClass('mg_prim_background');
+                $sound_player_trigger.removeClass('ion-volume-medium').addClass('ion-volume-mute');
+                sound.pause();
+              }
+              else
+              {
+                $('.player-controller').addClass('mg_sec_background_2').removeClass('mg_prim_background');
+                $sound_player_trigger.addClass('ion-volume-medium').removeClass('ion-volume-mute');
+                  sound.play();
+              }
+            });
 </script>

@@ -42,6 +42,8 @@ angular.module('equinoxe.controllers',[])
 			});
 		};
 
+
+
 	}])
     .controller('HomeCtrl',['$scope','$templateCache','$rootScope','AssistanceService','$location', '$anchorScroll','$stateParams', function($scope,$templateCache,$rootScope,AssistanceService,$location,$anchorScroll,$stateParams){
     	$templateCache.removeAll();

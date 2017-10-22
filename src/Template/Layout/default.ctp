@@ -56,14 +56,13 @@ $cakeDescription = 'Equinoxe Team';
     <?= $this->Html->script('jquery.fittext') ?>
     <?= $this->Html->script('../node_modules/cleave.js/dist/cleave-angular.min') ?>
     <?= $this->Html->script('../node_modules/cleave.js/dist/addons/cleave-phone.fr') ?>
-
+    <?= $this->Html->script('howler.js-master/dist/howler.min') ?>
     <?= $this->fetch('script') ?>
 
     <base href="/">
 
 </head>
 <body ng-app="equinoxe-team">
-     <!-- HIde Animation -->
 
     <div ng-hide="$root.preloader" class="row center mg-margin-bottom-0" ui-view="navbar"></div>
     <div ng-hide="$root.preloader" ui-view></div>
@@ -99,6 +98,8 @@ $cakeDescription = 'Equinoxe Team';
       <?= $this->Html->script('awesome_animation') ?>
       <script>
         AOS.init();
+
+
       </script>
 </body>
 </html>
