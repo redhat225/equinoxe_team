@@ -24,7 +24,7 @@ $cakeDescription = 'Equinoxe Team';
         <?= $cakeDescription ?>:
         <?= $title ?>
     </title>
-    <?= $this->Html->meta('favicon.png','/img/favicon.png',['type'=>'icon']) ?>
+    <?= $this->Html->meta('favicon.ico','/img/favicon.ico',['type'=>'icon']) ?>
 
     <?= $this->fetch('meta') ?>
     <!-- Third Party dependencies -->
