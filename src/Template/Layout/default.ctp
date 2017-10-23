@@ -56,7 +56,6 @@ $cakeDescription = 'Equinoxe Team';
     <?= $this->Html->script('jquery.fittext') ?>
     <?= $this->Html->script('../node_modules/cleave.js/dist/cleave-angular.min') ?>
     <?= $this->Html->script('../node_modules/cleave.js/dist/addons/cleave-phone.fr') ?>
-    <?= $this->Html->script('howler.js-master/dist/howler.min') ?>
     <?= $this->fetch('script') ?>
 
     <base href="/">

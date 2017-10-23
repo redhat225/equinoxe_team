@@ -69,10 +69,6 @@
               </a>
         </li>
       </ul>
-          <!-- Player controller -->
-          <a class="right player-controller mg_sec_background_2 mg-height-67 mg-width-50">
-              <i class="player-controller-icon ion-volume-medium black-text small"></i>
-          </a>
     </div>
   </nav>
 
@@ -124,10 +120,6 @@
                     </a>
                 </li>
           </ul>
-          <!-- Player controller -->
-          <a class="right player-controller mg_sec_background_2 mg-height-70 mg-width-50">
-              <i class="player-controller-icon ion-volume-medium black-text small"></i>
-          </a>
       </div>
   </nav>
 </div>
@@ -183,28 +175,4 @@ $('#dynamic_navbar').fadeOut();
       }
   });
 
-           // Howler sound controller
-            var sound = new Howl({
-              src:['/webroot/sound/music.mp3'],
-              volume:0.5,
-              loop:true,
-              autoplay:true,
-              html5:true
-            });
-
-            $('.player-controller').on('click', function(){
-                var $sound_player_trigger = $('.player-controller-icon');
-              if($sound_player_trigger.hasClass('ion-volume-medium'))
-              {
-                $('.player-controller').removeClass('mg_sec_background_2').addClass('mg_prim_background');
-                $sound_player_trigger.removeClass('ion-volume-medium').addClass('ion-volume-mute');
-                sound.pause();
-              }
-              else
-              {
-                $('.player-controller').addClass('mg_sec_background_2').removeClass('mg_prim_background');
-                $sound_player_trigger.addClass('ion-volume-medium').removeClass('ion-volume-mute');
-                  sound.play();
-              }
-            });
 </script>
