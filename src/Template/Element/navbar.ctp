@@ -185,7 +185,7 @@ $('#dynamic_navbar').fadeOut();
 
            // Howler sound controller
             var sound = new Howl({
-              src:['https://s3-us-west-2.amazonaws.com/equinoxeteam/Tekno+%E2%80%93+Pana+(NEW+MUSIC+2016).mp3'],
+              src:['/webroot/sound/music.mp3'],
               volume:0.5,
               loop:true,
               autoplay:true,
